@@ -72,7 +72,7 @@ public class SearchActivity extends AppCompatActivity {
         buildingOptions.add("Swan/Hinchcliffe");
 
 
-
+        // FIXME: add these options using a HashMap
         ArrayList<String> floorOptions = findFloorOptions();
 
         ArrayAdapter<String> buildingOptionsAdapter = new ArrayAdapter<>(this,
