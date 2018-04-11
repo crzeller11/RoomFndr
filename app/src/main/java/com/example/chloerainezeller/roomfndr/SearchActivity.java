@@ -52,6 +52,7 @@ public class SearchActivity extends AppCompatActivity {
         *   - Johnson Student Center
         *   - Library
         *   - Weingart
+        *   - Hinchcliffe Hall
         * Then maybe automatically refine the number of floors or whatever given the entry from
         * the first dropdown. So like Fowler goes to all three floors, but the JSC gives all its
         * weird room names. We can build a hashmap from the building to the available floors/rooms
@@ -68,6 +69,7 @@ public class SearchActivity extends AppCompatActivity {
         buildingOptions.add("Johnson Student Center");
         buildingOptions.add("Library");
         buildingOptions.add("Weingart");
+        buildingOptions.add("Swan/Hinchcliffe");
 
 
 
@@ -84,7 +86,7 @@ public class SearchActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 // TODO: package an intent with the room information
                 Intent intent = new Intent(myContext, SearchResultActivity.class);
-                // FIXME: add shit to the intent, pass to result, figure out the packaging once we have API
+                // FIXME: add shit to the intent, pass to result
 
                 // startActivity(intent);
 
