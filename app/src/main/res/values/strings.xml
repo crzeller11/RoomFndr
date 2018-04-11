@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RoomFndr</string>
+    <string name="find_room">Find a room</string>
+    <string name="room_request">Make a room request</string>
+    <string name="search_title">Find an Available Room:</string>
+    <string name="building">Building</string>
+    <string name="floor">Floor</string>
+    <string name="search_results">Search Results:</string>
+    <string name="favorites">Favorites</string>
+    <string name="my_favorite_rooms">My Favorite Rooms:</string>
+</resources>
