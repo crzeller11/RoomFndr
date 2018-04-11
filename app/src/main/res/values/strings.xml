@@ -9,4 +9,8 @@
     <string name="favorites">Favorites</string>
     <string name="my_favorite_rooms">My Favorite Rooms:</string>
     <string name="search">Search for Rooms</string>
+    <string name="room_nbr">Room Number</string>
+    <string name="share_room">Share this room</string>
+    <string name="email_osl">Email the Office of Student List to Reserve</string>
+    <string name="add_to_favs">Favorite this room</string>
 </resources>

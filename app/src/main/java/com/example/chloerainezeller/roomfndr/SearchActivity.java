@@ -12,9 +12,10 @@ import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.Spinner;
 
-import java.lang.reflect.Array;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Scanner;
 
 public class SearchActivity extends AppCompatActivity {
 
@@ -30,6 +31,7 @@ public class SearchActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.search_activity);
+
 
         myContext = this;
         buildingSpinner = findViewById(R.id.buildingSpinner);
@@ -81,6 +83,10 @@ public class SearchActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 // TODO: package an intent with the room information
+                Intent intent = new Intent(myContext, SearchResultActivity.class);
+                // FIXME: add shit to the intent, pass to result
+
+                // startActivity(intent);
 
             }
         });
