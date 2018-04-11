@@ -84,7 +84,7 @@ public class SearchActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 // TODO: package an intent with the room information
                 Intent intent = new Intent(myContext, SearchResultActivity.class);
-                // FIXME: add shit to the intent, pass to result
+                // FIXME: add shit to the intent, pass to result, figure out the packaging once we have API
 
                 // startActivity(intent);
 
