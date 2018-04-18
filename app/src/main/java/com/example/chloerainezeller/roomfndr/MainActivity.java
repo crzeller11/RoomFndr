@@ -25,6 +25,9 @@ public class MainActivity extends AppCompatActivity {
         findRoomButton = findViewById(R.id.findRoomButton);
         makeRoomRequestButton = findViewById(R.id.roomRequestButton);
 
+        Reservation halp = new Reservation();
+        halp.reservationDescription = "Pls work...";
+        String test = halp.retrieveDocumentFromUrl();
 
 
     }

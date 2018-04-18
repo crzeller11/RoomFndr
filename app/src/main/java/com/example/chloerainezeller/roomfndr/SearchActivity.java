@@ -75,13 +75,14 @@ public class SearchActivity extends AppCompatActivity {
 
 
         // FIXME: add these options using a HashMap
-        ArrayList<String> floorOptions = findFloorOptions();
+        //ArrayList<String> floorOptions = findFloorOptions();
 
         ArrayAdapter<String> buildingOptionsAdapter = new ArrayAdapter<>(this,
                 android.R.layout.simple_spinner_dropdown_item, buildingOptions);
 
         buildingSpinner.setAdapter(buildingOptionsAdapter);
 
+        /*
         // TODO: Configure onItemClick on roomListView
         roomListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -96,7 +97,7 @@ public class SearchActivity extends AppCompatActivity {
         });
 
         // TODO: Configure search button method below
-
+        */
 
     }
 
@@ -113,8 +114,10 @@ public class SearchActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    /*
+
     // search button, searches all available rooms
-    public void search(View view) {
+    public void searchReservations(View view) {
         // FIXME: populate the list view with the search results, going to need an adapter
     }
 
@@ -134,4 +137,6 @@ public class SearchActivity extends AppCompatActivity {
         // FIXME
         return buildingHashmap;
     }
+    */
+
 }
