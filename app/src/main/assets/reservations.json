@@ -1,0 +1,3508 @@
+{
+  "reservations:": [
+    {
+      "room": "AGYM 21",
+      "eventName": "Cs Dance Team",
+      "time": [
+        "07:00 AM",
+        "07:50 AM"
+      ]
+    },
+    {
+      "room": "AGYM 21",
+      "eventName": "Phac 134 1",
+      "time": [
+        "08:00 AM",
+        "08:55 AM"
+      ]
+    },
+    {
+      "room": "AGYM 21",
+      "eventName": "Thea 110 2",
+      "time": [
+        "09:35 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "AGYM 21",
+      "eventName": "Phac 134 3",
+      "time": [
+        "01:00 PM",
+        "01:50 PM"
+      ]
+    },
+    {
+      "room": "AGYM 21",
+      "eventName": "Thea 234 0",
+      "time": [
+        "03:35 PM",
+        "05:00 PM"
+      ]
+    },
+    {
+      "room": "AGYM 21",
+      "eventName": "Phac 149 1",
+      "time": [
+        "05:10 PM",
+        "06:25 PM"
+      ]
+    },
+    {
+      "room": "AGYM 21",
+      "eventName": "Thea 130 0",
+      "time": [
+        "06:45 PM",
+        "08:10 PM"
+      ]
+    },
+    {
+      "room": "AGYM 21",
+      "eventName": "Phac 134 7",
+      "time": [
+        "08:10 PM",
+        "10:00 PM"
+      ]
+    },
+    {
+      "room": "AGYM 21",
+      "eventName": "AzúCar Rehearsal",
+      "time": [
+        "10:00 PM",
+        "11:00 PM"
+      ]
+    },
+    {
+      "room": "AGYM TROPHY",
+      "eventName": "Varsity Swim Banquet",
+      "time": [
+        "05:45 PM",
+        "07:00 PM"
+      ]
+    },
+    {
+      "room": "BELL FIELD",
+      "eventName": "Varsity Softball Practice",
+      "time": [
+        "03:00 PM",
+        "07:00 PM"
+      ]
+    },
+    {
+      "room": "BERKUS 206",
+      "eventName": "Rehs Staff Meeting",
+      "time": [
+        "10:00 AM",
+        "12:00 PM"
+      ]
+    },
+    {
+      "room": "BERKUS 232",
+      "eventName": "Chin 102 0",
+      "time": [
+        "09:05 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "BERKUS 232",
+      "eventName": "Bio 226 0",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "BERKUS 232",
+      "eventName": "Phys 240 0",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "BERKUS 242",
+      "eventName": "Kine 104 0",
+      "time": [
+        "09:35 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "BERKUS 242",
+      "eventName": "Csp 78 0",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "BERKUS 242",
+      "eventName": "Kine 210 0",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "BERKUS 243",
+      "eventName": "Kine 300 0",
+      "time": [
+        "08:30 AM",
+        "09:25 AM"
+      ]
+    },
+    {
+      "room": "BERKUS 243",
+      "eventName": "Kine 301 0",
+      "time": [
+        "09:35 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "BERKUS 243",
+      "eventName": "Kine 302 0",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "BERKUS 243",
+      "eventName": "Kine 304 0",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "BERKUS 243",
+      "eventName": "Kine 302l 2",
+      "time": [
+        "01:55 PM",
+        "04:50 PM"
+      ]
+    },
+    {
+      "room": "BERKUS 243B",
+      "eventName": "Kine 304l 1",
+      "time": [
+        "03:00 PM",
+        "05:55 PM"
+      ]
+    },
+    {
+      "room": "BERKUS 244",
+      "eventName": "Psyc 321 0",
+      "time": [
+        "08:30 AM",
+        "09:25 AM"
+      ]
+    },
+    {
+      "room": "BERKUS 244",
+      "eventName": "Psyc 200 3",
+      "time": [
+        "09:35 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "BERKUS 244",
+      "eventName": "Ctsj 311 0",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "BERKUS 244",
+      "eventName": "Csp 60 0",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "BERKUS 244",
+      "eventName": "Engl 159 0",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "BERKUS 244",
+      "eventName": "Fren 252 0",
+      "time": [
+        "04:05 PM",
+        "05:00 PM"
+      ]
+    },
+    {
+      "room": "BERKUS 244",
+      "eventName": "Fren 152 0",
+      "time": [
+        "06:00 PM",
+        "06:55 PM"
+      ]
+    },
+    {
+      "room": "BIOS 113",
+      "eventName": "Bio 344 0",
+      "time": [
+        "09:35 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "BIOS 113",
+      "eventName": "Bio 221 1",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "BIOS 113",
+      "eventName": "Bio 221 2",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "BIOS 113",
+      "eventName": "Bio 110 1",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "BIOS 113",
+      "eventName": "Bio 103 1",
+      "time": [
+        "05:40 PM",
+        "07:05 PM"
+      ]
+    },
+    {
+      "room": "BIRD STUDIO",
+      "eventName": "Beth Nam Lessons",
+      "time": [
+        "10:30 AM",
+        "06:00 PM"
+      ]
+    },
+    {
+      "room": "BIRD STUDIO",
+      "eventName": "Chamber Music Rehearsal - Gloria Lum",
+      "time": [
+        "08:15 PM",
+        "09:15 PM"
+      ]
+    },
+    {
+      "room": "BOOTH 119",
+      "eventName": "Educ 205 0",
+      "time": [
+        "05:40 PM",
+        "07:05 PM"
+      ]
+    },
+    {
+      "room": "BOOTH 200",
+      "eventName": "Musc 230 0",
+      "time": [
+        "08:15 PM",
+        "10:00 PM"
+      ]
+    },
+    {
+      "room": "BOOTH 204",
+      "eventName": "Musc 108 0",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "BOOTH 204",
+      "eventName": "Gloria Lum Chamber",
+      "time": [
+        "12:45 PM",
+        "01:45 PM"
+      ]
+    },
+    {
+      "room": "BOOTH 204",
+      "eventName": "Musc 104 0",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "BOOTH 204",
+      "eventName": "Musc 102 0",
+      "time": [
+        "03:00 PM",
+        "03:55 PM"
+      ]
+    },
+    {
+      "room": "BOOTH 204",
+      "eventName": "Gloria Lum Chamber",
+      "time": [
+        "04:00 PM",
+        "05:00 PM"
+      ]
+    },
+    {
+      "room": "BOOTH 204",
+      "eventName": "Musc 121 0 Mmp",
+      "time": [
+        "07:15 PM",
+        "09:45 PM"
+      ]
+    },
+    {
+      "room": "BOOTH 208",
+      "eventName": "Musc 151a 0",
+      "time": [
+        "09:35 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "BOOTH 208",
+      "eventName": "Musc 351a 0",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "BOOTH 208",
+      "eventName": "Michael Kwan Chamber Group",
+      "time": [
+        "01:00 PM",
+        "02:00 PM"
+      ]
+    },
+    {
+      "room": "BOOTH 208",
+      "eventName": "Musc 151 0",
+      "time": [
+        "04:05 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "room": "BOOTH 208",
+      "eventName": "Musc 245 0",
+      "time": [
+        "06:15 PM",
+        "08:00 PM"
+      ]
+    },
+    {
+      "room": "BOOTH 224",
+      "eventName": "Claire Organick Trio:  Lum",
+      "time": [
+        "09:40 AM",
+        "10:25 AM"
+      ]
+    },
+    {
+      "room": "BOOTH 224",
+      "eventName": "Loren Battley Lesson",
+      "time": [
+        "12:30 PM",
+        "02:00 PM"
+      ]
+    },
+    {
+      "room": "BOOTH 224",
+      "eventName": "Claire Organick Chamber",
+      "time": [
+        "03:45 PM",
+        "04:45 PM"
+      ]
+    },
+    {
+      "room": "BOOTH 224",
+      "eventName": "Stephanie O'keefe Chamber",
+      "time": [
+        "04:45 PM",
+        "06:30 PM"
+      ]
+    },
+    {
+      "room": "BOOTH 224",
+      "eventName": "John Rehwald Tutoring",
+      "time": [
+        "06:30 PM",
+        "08:30 PM"
+      ]
+    },
+    {
+      "room": "BOOTH LAWN",
+      "eventName": "Chamber Music Rehearsal - Gloria Lum",
+      "time": [
+        "08:15 PM",
+        "09:15 PM"
+      ]
+    },
+    {
+      "room": "BOOTH MUSIC QUAD",
+      "eventName": "Cello Fest Reception",
+      "time": [
+        "04:00 PM",
+        "08:00 PM"
+      ]
+    },
+    {
+      "room": "BOOTH MUSIC QUAD",
+      "eventName": "Chamber Music Rehearsal - Gloria Lum",
+      "time": [
+        "08:15 PM",
+        "09:15 PM"
+      ]
+    },
+    {
+      "room": "COLLINS LAWN",
+      "eventName": "Admission Visitors - Reception And Infos",
+      "time": [
+        "07:30 AM",
+        "04:00 PM"
+      ]
+    },
+    {
+      "room": "COLLINS PATIO",
+      "eventName": "Admission Visitors - Reception And Infos",
+      "time": [
+        "07:30 AM",
+        "04:00 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 108",
+      "eventName": "Math 370 0",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "FOWLER 108",
+      "eventName": "Econ 498 0",
+      "time": [
+        "02:30 PM",
+        "03:55 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 108",
+      "eventName": "Comp 353 0",
+      "time": [
+        "04:05 PM",
+        "05:00 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 110",
+      "eventName": "Math 332 0",
+      "time": [
+        "09:35 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "FOWLER 110",
+      "eventName": "Soc 315 0",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "FOWLER 110",
+      "eventName": "Math 320 0",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 110",
+      "eventName": "Hist 220 0",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 111",
+      "eventName": "Math 120 1",
+      "time": [
+        "09:35 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "FOWLER 111",
+      "eventName": "Bio 350 0",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "FOWLER 111",
+      "eventName": "Csp 55 0",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 111",
+      "eventName": "Engl 288 0",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 111",
+      "eventName": "Dwa 287 0 Xl",
+      "time": [
+        "03:00 PM",
+        "03:55 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 111",
+      "eventName": "Amst 296 0 Xl",
+      "time": [
+        "03:00 PM",
+        "03:55 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 111",
+      "eventName": "Econ 326 0",
+      "time": [
+        "04:05 PM",
+        "06:30 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 111",
+      "eventName": "Ssap Physics Tutoring",
+      "time": [
+        "06:45 PM",
+        "08:00 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 111",
+      "eventName": "Pre-health Student E-board Meeting",
+      "time": [
+        "08:15 PM",
+        "09:15 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 112",
+      "eventName": "Ling 350 0 Xl",
+      "time": [
+        "09:05 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "FOWLER 112",
+      "eventName": "Psyc 351 0 Xl",
+      "time": [
+        "09:05 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "FOWLER 112",
+      "eventName": "Engl 142 0",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "FOWLER 112",
+      "eventName": "Csp 50 0",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 112",
+      "eventName": "Soc 260 0",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 112",
+      "eventName": "Amst 110 0",
+      "time": [
+        "04:05 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 112",
+      "eventName": "Organic Chemistry Ssap",
+      "time": [
+        "06:00 PM",
+        "08:00 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 113",
+      "eventName": "Phys 330 0 Mmp",
+      "time": [
+        "08:30 AM",
+        "09:25 AM"
+      ]
+    },
+    {
+      "room": "FOWLER 113",
+      "eventName": "Phys 366 0",
+      "time": [
+        "09:35 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "FOWLER 113",
+      "eventName": "Phys 340 0 Mmp",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "FOWLER 113",
+      "eventName": "Wrd 135 0",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 113",
+      "eventName": "Bio 373a 2",
+      "time": [
+        "03:00 PM",
+        "05:55 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 113",
+      "eventName": "Math Amp Workshops",
+      "time": [
+        "07:00 PM",
+        "09:00 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 201",
+      "eventName": "Comp 395 0",
+      "time": [
+        "09:05 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "FOWLER 201",
+      "eventName": "Pols 206 0",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "FOWLER 201",
+      "eventName": "Csp 73 0",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 201",
+      "eventName": "Bio 130 3",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 201",
+      "eventName": "Comp 149 0",
+      "time": [
+        "03:30 PM",
+        "04:55 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 201",
+      "eventName": "Bio Club Meeting",
+      "time": [
+        "08:00 PM",
+        "08:30 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 202",
+      "eventName": "Phys 115 0",
+      "time": [
+        "09:35 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "FOWLER 202",
+      "eventName": "Phys 117 1",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "FOWLER 202",
+      "eventName": "Phys 125 0",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 202",
+      "eventName": "Phys 117 2",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 202",
+      "eventName": "Phys 162 0",
+      "time": [
+        "03:00 PM",
+        "03:55 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 202",
+      "eventName": "Soc 101 2",
+      "time": [
+        "04:05 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 202",
+      "eventName": "Llas 101 Film Series",
+      "time": [
+        "07:45 PM",
+        "10:00 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 207",
+      "eventName": "Chem 120 1",
+      "time": [
+        "08:30 AM",
+        "09:25 AM"
+      ]
+    },
+    {
+      "room": "FOWLER 207",
+      "eventName": "Econ 250 1",
+      "time": [
+        "09:35 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "FOWLER 207",
+      "eventName": "Econ 250 2",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "FOWLER 207",
+      "eventName": "Csp 61 0",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 207",
+      "eventName": "Econ 102 1",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 207",
+      "eventName": "Econ 309 2",
+      "time": [
+        "03:00 PM",
+        "03:55 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 207",
+      "eventName": "Econ 320 0",
+      "time": [
+        "04:05 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 207",
+      "eventName": "German Film Club",
+      "time": [
+        "07:00 PM",
+        "09:30 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 209",
+      "eventName": "Math 214 1",
+      "time": [
+        "09:35 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "FOWLER 209",
+      "eventName": "Econ 308 0",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "FOWLER 209",
+      "eventName": "Csp 52 1",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 209",
+      "eventName": "Csp 52 2",
+      "time": [
+        "12:50 PM",
+        "01:45 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 209",
+      "eventName": "Math 120 3",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 209",
+      "eventName": "Math 212 1",
+      "time": [
+        "03:00 PM",
+        "03:55 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 209",
+      "eventName": "Amst 280 0 Xl",
+      "time": [
+        "04:05 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 209",
+      "eventName": "Dwa 246 0 Xl",
+      "time": [
+        "04:05 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 209",
+      "eventName": "Soc 304 0",
+      "time": [
+        "05:40 PM",
+        "07:05 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 210",
+      "eventName": "Csp 50s 1",
+      "time": [
+        "09:35 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "FOWLER 210",
+      "eventName": "Arab 202 0",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "FOWLER 210",
+      "eventName": "Csp 79 0",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 210",
+      "eventName": "Peer Crowd Community Meetings",
+      "time": [
+        "12:45 PM",
+        "01:45 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 210",
+      "eventName": "Math 114 1",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 210",
+      "eventName": "Cslc 145 0",
+      "time": [
+        "04:05 PM",
+        "05:00 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 210",
+      "eventName": "Span 252 1",
+      "time": [
+        "06:00 PM",
+        "06:55 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 301",
+      "eventName": "Engl 289 0",
+      "time": [
+        "09:35 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "FOWLER 301",
+      "eventName": "Math 120 2",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "FOWLER 301",
+      "eventName": "Csp 67 0",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 301",
+      "eventName": "Gateway Room Mwf",
+      "time": [
+        "12:45 PM",
+        "01:45 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 301",
+      "eventName": "Math 214 2",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 301",
+      "eventName": "Math 212 2",
+      "time": [
+        "04:05 PM",
+        "05:00 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 302",
+      "eventName": "Math 110 1",
+      "time": [
+        "09:35 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "FOWLER 302",
+      "eventName": "Math 146 1",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "FOWLER 302",
+      "eventName": "Math 146 2",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 302",
+      "eventName": "Comp 131 1",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 302",
+      "eventName": "Comp 229 2",
+      "time": [
+        "04:05 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 302",
+      "eventName": "Rels 155 0 Xl",
+      "time": [
+        "05:40 PM",
+        "07:05 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 302",
+      "eventName": "Cslc 185 0 Xl",
+      "time": [
+        "05:40 PM",
+        "07:05 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 307",
+      "eventName": "Math 210 1",
+      "time": [
+        "09:35 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "FOWLER 307",
+      "eventName": "Math 210 2",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "FOWLER 307",
+      "eventName": "Csp 68 0",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 307",
+      "eventName": "Phys 350 0 Mmp",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 307",
+      "eventName": "Csp 68 Study Session",
+      "time": [
+        "03:00 PM",
+        "04:00 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 307",
+      "eventName": "Advanced Analysis",
+      "time": [
+        "04:00 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 309",
+      "eventName": "Soc 320 1",
+      "time": [
+        "09:35 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "FOWLER 309",
+      "eventName": "Soc 320 2",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "FOWLER 309",
+      "eventName": "Psyc 428 0",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 309",
+      "eventName": "Math 380 0",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 309",
+      "eventName": "Rels 277 0",
+      "time": [
+        "03:00 PM",
+        "03:55 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 309",
+      "eventName": "Hist 151 0 Xl",
+      "time": [
+        "04:05 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 309",
+      "eventName": "Llas 151 0 Xl",
+      "time": [
+        "04:05 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 309",
+      "eventName": "Spanish Conversation Class",
+      "time": [
+        "06:00 PM",
+        "07:00 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 310",
+      "eventName": "Csp 53 1",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 310",
+      "eventName": "Csp 53 2",
+      "time": [
+        "12:50 PM",
+        "01:45 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 310",
+      "eventName": "Math 342 0",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 310",
+      "eventName": "Pols 258 0",
+      "time": [
+        "04:05 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "room": "FOWLER 310",
+      "eventName": "Span 152 1",
+      "time": [
+        "06:00 PM",
+        "06:55 PM"
+      ]
+    },
+    {
+      "room": "GILMAN FOUNTAIN",
+      "eventName": "Gilman Fountain Closure",
+      "time": [
+        "12:00 AM",
+        "11:00 PM"
+      ]
+    },
+    {
+      "room": "H C C CONFERENCE ROOM",
+      "eventName": "Hameetman Career Center",
+      "time": [
+        "05:30 PM",
+        "07:00 PM"
+      ]
+    },
+    {
+      "room": "HERRICK LAWN - SOUTH",
+      "eventName": "Clothesline Project",
+      "time": [
+        "Apr 09 2018",
+        "02:00 PM"
+      ]
+    },
+    {
+      "room": "HERRICK LOWER",
+      "eventName": "Yoga Wednesday - Spring 2018",
+      "time": [
+        "06:30 PM",
+        "08:45 PM"
+      ]
+    },
+    {
+      "room": "HERRICK UPPER",
+      "eventName": "Orsl Labyrinth, Spring 2018",
+      "time": [
+        "08:00 AM",
+        "05:00 PM"
+      ]
+    },
+    {
+      "room": "HERRICK UPPER",
+      "eventName": "Alternate Cello Fest Date",
+      "time": [
+        "05:00 PM",
+        "10:00 PM"
+      ]
+    },
+    {
+      "room": "HILLSIDE",
+      "eventName": "Greek Bowl Grass Maintenance",
+      "time": [
+        "12:00 AM",
+        "11:00 PM"
+      ]
+    },
+    {
+      "room": "HINCH 117",
+      "eventName": "Csp 50s 3",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "HINCH 117",
+      "eventName": "Engl 370 0",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "HINCH 117",
+      "eventName": "Philosophy Department Meeting",
+      "time": [
+        "12:50 PM",
+        "01:45 PM"
+      ]
+    },
+    {
+      "room": "HINCH 117",
+      "eventName": "Engl 390 0",
+      "time": [
+        "03:00 PM",
+        "03:55 PM"
+      ]
+    },
+    {
+      "room": "HSC 102",
+      "eventName": "Geo 105 1",
+      "time": [
+        "09:35 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "HSC 102",
+      "eventName": "Geo 105 2",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "HSC 102",
+      "eventName": "Ssap Geology Tutoring",
+      "time": [
+        "07:30 PM",
+        "09:30 PM"
+      ]
+    },
+    {
+      "room": "HSC 124",
+      "eventName": "Phys 491 2",
+      "time": [
+        "03:00 PM",
+        "04:25 PM"
+      ]
+    },
+    {
+      "room": "HSC 202",
+      "eventName": "Geo 325 0",
+      "time": [
+        "09:35 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "HSC 202",
+      "eventName": "Geo 325l 2",
+      "time": [
+        "01:30 PM",
+        "04:25 PM"
+      ]
+    },
+    {
+      "room": "HSC 202",
+      "eventName": "Geo 324 0",
+      "time": [
+        "07:15 PM",
+        "08:40 PM"
+      ]
+    },
+    {
+      "room": "HSC 203",
+      "eventName": "Geo 150 0",
+      "time": [
+        "08:00 AM",
+        "09:25 AM"
+      ]
+    },
+    {
+      "room": "HSC 225",
+      "eventName": "Geo Dept Meeting",
+      "time": [
+        "12:00 PM",
+        "01:30 PM"
+      ]
+    },
+    {
+      "room": "HSC 225",
+      "eventName": "Scof Meetings",
+      "time": [
+        "01:30 PM",
+        "02:15 PM"
+      ]
+    },
+    {
+      "room": "JOHN 100",
+      "eventName": "Deb Workshop",
+      "time": [
+        "06:30 PM",
+        "09:00 PM"
+      ]
+    },
+    {
+      "room": "JOHN 103",
+      "eventName": "Virtual Realtiy Lab",
+      "time": [
+        "01:30 PM",
+        "02:30 PM"
+      ]
+    },
+    {
+      "room": "JOHN 103",
+      "eventName": "Spanish V R",
+      "time": [
+        "06:00 PM",
+        "07:00 PM"
+      ]
+    },
+    {
+      "room": "JOHN 103",
+      "eventName": "Dwa 260 0",
+      "time": [
+        "07:15 PM",
+        "10:10 PM"
+      ]
+    },
+    {
+      "room": "JOHN 104",
+      "eventName": "Soc 225 0",
+      "time": [
+        "09:35 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "JOHN 104",
+      "eventName": "Pols 101 1",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "JOHN 104",
+      "eventName": "Csp 71 0",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "JOHN 104",
+      "eventName": "Study Abroad Info Session",
+      "time": [
+        "01:00 PM",
+        "01:30 PM"
+      ]
+    },
+    {
+      "room": "JOHN 104",
+      "eventName": "Span 202 1",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "JOHN 104",
+      "eventName": "Span 202 2",
+      "time": [
+        "03:00 PM",
+        "03:55 PM"
+      ]
+    },
+    {
+      "room": "JOHN 104",
+      "eventName": "Rels 266 0",
+      "time": [
+        "04:05 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "room": "JOHN 104",
+      "eventName": "Educ 145 0",
+      "time": [
+        "07:15 PM",
+        "08:40 PM"
+      ]
+    },
+    {
+      "room": "JOHN 105",
+      "eventName": "Fren 102 1",
+      "time": [
+        "08:30 AM",
+        "09:25 AM"
+      ]
+    },
+    {
+      "room": "JOHN 105",
+      "eventName": "Fren 102 2",
+      "time": [
+        "09:35 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "JOHN 105",
+      "eventName": "Fren 202 0",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "JOHN 105",
+      "eventName": "Csp 66 0",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "JOHN 105",
+      "eventName": "Fren 363 0",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "JOHN 105",
+      "eventName": "Latn 101 0",
+      "time": [
+        "03:00 PM",
+        "03:55 PM"
+      ]
+    },
+    {
+      "room": "JOHN 105",
+      "eventName": "Soc 205 0",
+      "time": [
+        "04:05 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "room": "JOHN 105",
+      "eventName": "Uep 214 0",
+      "time": [
+        "07:15 PM",
+        "10:15 PM"
+      ]
+    },
+    {
+      "room": "JOHN 106",
+      "eventName": "Span 102 1",
+      "time": [
+        "08:30 AM",
+        "09:25 AM"
+      ]
+    },
+    {
+      "room": "JOHN 106",
+      "eventName": "Span 102 2",
+      "time": [
+        "09:35 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "JOHN 106",
+      "eventName": "Ling 301 1",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "JOHN 106",
+      "eventName": "Csp 56 0",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "JOHN 106",
+      "eventName": "Span 102 4",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "JOHN 106",
+      "eventName": "Span 102 5",
+      "time": [
+        "03:00 PM",
+        "03:55 PM"
+      ]
+    },
+    {
+      "room": "JOHN 106",
+      "eventName": "Hist 395 1",
+      "time": [
+        "04:05 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "room": "JOHN 106",
+      "eventName": "Dwa 228 0",
+      "time": [
+        "05:40 PM",
+        "07:05 PM"
+      ]
+    },
+    {
+      "room": "JOHN 106",
+      "eventName": "Uep 308 0",
+      "time": [
+        "07:15 PM",
+        "10:15 PM"
+      ]
+    },
+    {
+      "room": "JOHN 200",
+      "eventName": "Mac 390 0",
+      "time": [
+        "09:30 AM",
+        "11:25 AM"
+      ]
+    },
+    {
+      "room": "JOHN 200",
+      "eventName": "Dry Run - Town Hall",
+      "time": [
+        "11:30 AM",
+        "01:30 PM"
+      ]
+    },
+    {
+      "room": "JOHN 200",
+      "eventName": "Mac 143 0",
+      "time": [
+        "01:30 PM",
+        "02:55 PM"
+      ]
+    },
+    {
+      "room": "JOHN 200",
+      "eventName": "Ted X Talk Rehearsal",
+      "time": [
+        "03:30 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "room": "JOHN 200",
+      "eventName": "Incarceration Awareness Film Screening",
+      "time": [
+        "06:00 PM",
+        "11:00 PM"
+      ]
+    },
+    {
+      "room": "JOHN 201",
+      "eventName": "Faculty Council Meeting",
+      "time": [
+        "09:00 AM",
+        "10:00 AM"
+      ]
+    },
+    {
+      "room": "JOHN 201",
+      "eventName": "Make Up Exam",
+      "time": [
+        "11:30 AM",
+        "12:55 PM"
+      ]
+    },
+    {
+      "room": "JOHN 201",
+      "eventName": "Autry Internship Interviews",
+      "time": [
+        "01:15 PM",
+        "03:45 PM"
+      ]
+    },
+    {
+      "room": "JOHN 203",
+      "eventName": "Arab 102 0",
+      "time": [
+        "09:05 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "JOHN 203",
+      "eventName": "Bio 130 2",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "JOHN 203",
+      "eventName": "Comp 239 0",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "JOHN 203",
+      "eventName": "Germ 102 0",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "JOHN 203",
+      "eventName": "Comp 131 2",
+      "time": [
+        "03:00 PM",
+        "03:55 PM"
+      ]
+    },
+    {
+      "room": "JOHN 203",
+      "eventName": "Dwa 256 0",
+      "time": [
+        "04:05 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "room": "JOHN 203",
+      "eventName": "Uep 203 2",
+      "time": [
+        "07:15 PM",
+        "10:10 PM"
+      ]
+    },
+    {
+      "room": "JOHN 301",
+      "eventName": "Japn 102 0",
+      "time": [
+        "09:05 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "JOHN 301",
+      "eventName": "Span 102 3",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "JOHN 301",
+      "eventName": "Csp 59 0",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "JOHN 301",
+      "eventName": "Hist 209 1",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "JOHN 301",
+      "eventName": "Hist 209 2",
+      "time": [
+        "03:00 PM",
+        "03:55 PM"
+      ]
+    },
+    {
+      "room": "JOHN 301",
+      "eventName": "Pols 101 3",
+      "time": [
+        "04:05 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "room": "JOHN 301",
+      "eventName": "Men's Rugby Film Screening",
+      "time": [
+        "07:00 PM",
+        "08:30 PM"
+      ]
+    },
+    {
+      "room": "JOHN 302",
+      "eventName": "Pols 140 0",
+      "time": [
+        "09:35 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "JOHN 302",
+      "eventName": "Hist 102 0",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "JOHN 302",
+      "eventName": "Csp 57 0",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "JOHN 302",
+      "eventName": "Span 312 0",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "JOHN 302",
+      "eventName": "Ling 301 2",
+      "time": [
+        "03:00 PM",
+        "03:55 PM"
+      ]
+    },
+    {
+      "room": "JOHN 302",
+      "eventName": "Dwa 102 1",
+      "time": [
+        "04:05 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "room": "JOHN 302",
+      "eventName": "Ctsj 361 0 Xl",
+      "time": [
+        "07:15 PM",
+        "10:10 PM"
+      ]
+    },
+    {
+      "room": "JOHN 302",
+      "eventName": "Mac 248 0 Xl",
+      "time": [
+        "07:15 PM",
+        "10:10 PM"
+      ]
+    },
+    {
+      "room": "JOHN 303",
+      "eventName": "Span 301 1",
+      "time": [
+        "09:35 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "JOHN 303",
+      "eventName": "Span 301 2",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "JOHN 303",
+      "eventName": "Csp 54 0",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "JOHN 303",
+      "eventName": "Span 201 1",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "JOHN 303",
+      "eventName": "Span 201 2",
+      "time": [
+        "03:00 PM",
+        "03:55 PM"
+      ]
+    },
+    {
+      "room": "JOHN 303",
+      "eventName": "Pols 101 2",
+      "time": [
+        "04:05 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "room": "JOHN 303",
+      "eventName": "Moot Court Meetings",
+      "time": [
+        "07:00 PM",
+        "09:00 PM"
+      ]
+    },
+    {
+      "room": "JOHN 313 - SKYBOX",
+      "eventName": "Write-on-site Sessions",
+      "time": [
+        "09:00 AM",
+        "11:00 AM"
+      ]
+    },
+    {
+      "room": "JOHN 313 - SKYBOX",
+      "eventName": "Dry Run - Town Hall",
+      "time": [
+        "11:30 AM",
+        "01:30 PM"
+      ]
+    },
+    {
+      "room": "JOHN 313 - SKYBOX",
+      "eventName": "Ted X Talk Rehearsal",
+      "time": [
+        "03:30 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "room": "JOHN 313 - SKYBOX",
+      "eventName": "Incarceration Awareness Film Screening",
+      "time": [
+        "06:00 PM",
+        "11:00 PM"
+      ]
+    },
+    {
+      "room": "JOHN 314 - SKYBOX",
+      "eventName": "Japn 350 0",
+      "time": [
+        "10:40 AM",
+        "11:25 AM"
+      ]
+    },
+    {
+      "room": "JOHN 314 - SKYBOX",
+      "eventName": "Dry Run - Town Hall",
+      "time": [
+        "11:30 AM",
+        "01:30 PM"
+      ]
+    },
+    {
+      "room": "JOHN 314 - SKYBOX",
+      "eventName": "Grk 101 0",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "JOHN 314 - SKYBOX",
+      "eventName": "Ted X Talk Rehearsal",
+      "time": [
+        "03:30 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "room": "JOHN 314 - SKYBOX",
+      "eventName": "Incarceration Awareness Film Screening",
+      "time": [
+        "06:00 PM",
+        "11:00 PM"
+      ]
+    },
+    {
+      "room": "JOHN 315",
+      "eventName": "Fren 101 0",
+      "time": [
+        "09:35 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "JOHN 315",
+      "eventName": "Bio 275 0",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "JOHN 315",
+      "eventName": "Csp 63 0",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "JOHN 315",
+      "eventName": "Japn 202 0",
+      "time": [
+        "01:55 PM",
+        "03:20 PM"
+      ]
+    },
+    {
+      "room": "JOHN 315",
+      "eventName": "Cslc 211 0",
+      "time": [
+        "04:05 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "room": "JOHN 315",
+      "eventName": "Iso Career Panel",
+      "time": [
+        "07:00 PM",
+        "09:00 PM"
+      ]
+    },
+    {
+      "room": "JSC BENGAL ROOM",
+      "eventName": "Dance Team Practice",
+      "time": [
+        "08:00 AM",
+        "08:30 AM"
+      ]
+    },
+    {
+      "room": "JSC BENGAL ROOM",
+      "eventName": "Bike Share Open Hours",
+      "time": [
+        "12:00 PM",
+        "05:00 PM"
+      ]
+    },
+    {
+      "room": "JSC BENGAL ROOM",
+      "eventName": "Bsa Photoshoot",
+      "time": [
+        "06:00 PM",
+        "09:00 PM"
+      ]
+    },
+    {
+      "room": "JSC BRANCA RAIL",
+      "eventName": "Tech Day Banner",
+      "time": [
+        "Apr 11 2018",
+        "Apr 19 2018"
+      ]
+    },
+    {
+      "room": "JSC MORRISON",
+      "eventName": "Econ Senior Thesis Presentations",
+      "time": [
+        "01:55 PM",
+        "03:55 PM"
+      ]
+    },
+    {
+      "room": "JSC N",
+      "eventName": "Tiaa Counseling",
+      "time": [
+        "09:00 AM",
+        "05:00 PM"
+      ]
+    },
+    {
+      "room": "JSC PDR",
+      "eventName": "Comparte Leadership Meeting",
+      "time": [
+        "03:00 PM",
+        "04:00 PM"
+      ]
+    },
+    {
+      "room": "JSC SALSBURY",
+      "eventName": "Conference Services Summer Interview",
+      "time": [
+        "09:00 AM",
+        "11:00 AM"
+      ]
+    },
+    {
+      "room": "JSC STUDENMUND CONFERENCE ROOM",
+      "eventName": "Fyflc Breakfast Meeting",
+      "time": [
+        "09:00 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "KECK 104",
+      "eventName": "Thea 246 0",
+      "time": [
+        "03:00 PM",
+        "03:55 PM"
+      ]
+    },
+    {
+      "room": "KECK 114",
+      "eventName": "Thea 120 0",
+      "time": [
+        "04:05 PM",
+        "05:00 PM"
+      ]
+    },
+    {
+      "room": "KECK 208",
+      "eventName": "Thea 310 0",
+      "time": [
+        "09:35 AM",
+        "11:05 AM"
+      ]
+    },
+    {
+      "room": "KECK 208",
+      "eventName": "Thea 316 0",
+      "time": [
+        "11:15 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "KECK 208",
+      "eventName": "Thea 210 0",
+      "time": [
+        "01:55 PM",
+        "03:55 PM"
+      ]
+    },
+    {
+      "room": "KECK 208",
+      "eventName": "Thea 141 0",
+      "time": [
+        "04:05 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "room": "LIB 124",
+      "eventName": "Department Interview",
+      "time": [
+        "12:30 PM",
+        "03:00 PM"
+      ]
+    },
+    {
+      "room": "LIB 124",
+      "eventName": "Cslc 200 Office Hours",
+      "time": [
+        "06:00 PM",
+        "08:00 PM"
+      ]
+    },
+    {
+      "room": "LIB 2",
+      "eventName": "Csp Classes",
+      "time": [
+        "11:30 AM",
+        "12:50 PM"
+      ]
+    },
+    {
+      "room": "LIB 2",
+      "eventName": "Musc 248 0",
+      "time": [
+        "01:00 PM",
+        "04:00 PM"
+      ]
+    },
+    {
+      "room": "LIB 2",
+      "eventName": "Arts 107 0",
+      "time": [
+        "04:05 PM",
+        "06:55 PM"
+      ]
+    },
+    {
+      "room": "LIB 2",
+      "eventName": "Musc 148 0",
+      "time": [
+        "07:15 PM",
+        "08:40 PM"
+      ]
+    },
+    {
+      "room": "LIB 219",
+      "eventName": "I T S Data Report Training",
+      "time": [
+        "09:00 AM",
+        "10:00 AM"
+      ]
+    },
+    {
+      "room": "LIB 219",
+      "eventName": "Csp Classes",
+      "time": [
+        "11:30 AM",
+        "12:50 PM"
+      ]
+    },
+    {
+      "room": "LIB 219",
+      "eventName": "Csp Classes",
+      "time": [
+        "12:50 PM",
+        "01:55 PM"
+      ]
+    },
+    {
+      "room": "LIB 251",
+      "eventName": "Chin 310 0",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "LIB 251",
+      "eventName": "Csp 74 0",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "LIB 251",
+      "eventName": "Chin 202 0",
+      "time": [
+        "01:55 PM",
+        "03:20 PM"
+      ]
+    },
+    {
+      "room": "LIB 251",
+      "eventName": "History Tutorial",
+      "time": [
+        "04:00 PM",
+        "05:00 PM"
+      ]
+    },
+    {
+      "room": "LIB 251",
+      "eventName": "History Tutorial",
+      "time": [
+        "05:00 PM",
+        "06:00 PM"
+      ]
+    },
+    {
+      "room": "LIB 260",
+      "eventName": "Csp 58 0",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "LIB 260",
+      "eventName": "Rusn 202 0",
+      "time": [
+        "01:30 PM",
+        "02:55 PM"
+      ]
+    },
+    {
+      "room": "LIB 260",
+      "eventName": "Rusn 102 0",
+      "time": [
+        "03:00 PM",
+        "03:55 PM"
+      ]
+    },
+    {
+      "room": "LIB 260",
+      "eventName": "Theta Study Room",
+      "time": [
+        "07:00 PM",
+        "09:00 PM"
+      ]
+    },
+    {
+      "room": "LIB 3",
+      "eventName": "Csp 75 0",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "LIB 3",
+      "eventName": "Wrd 235 0",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "LIB 3",
+      "eventName": "Wrd 201 1",
+      "time": [
+        "04:05 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "room": "LIB 355",
+      "eventName": "Hist 226 0",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "LIB 355",
+      "eventName": "Csp 80 0",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "LIB 355",
+      "eventName": "History Tutorial",
+      "time": [
+        "02:00 PM",
+        "02:55 PM"
+      ]
+    },
+    {
+      "room": "LIB 358",
+      "eventName": "N P P - T4 Meeting",
+      "time": [
+        "07:30 AM",
+        "05:00 PM"
+      ]
+    },
+    {
+      "room": "LIB 358",
+      "eventName": "Biology Ssap Tutoring",
+      "time": [
+        "05:00 PM",
+        "07:00 PM"
+      ]
+    },
+    {
+      "room": "LIB BROWN 219",
+      "eventName": "I T S Data Report Training",
+      "time": [
+        "09:00 AM",
+        "10:00 AM"
+      ]
+    },
+    {
+      "room": "LIB BROWN 219",
+      "eventName": "Csp Classes",
+      "time": [
+        "11:30 AM",
+        "12:50 PM"
+      ]
+    },
+    {
+      "room": "LIB BROWN 219",
+      "eventName": "Csp Classes",
+      "time": [
+        "12:50 PM",
+        "01:55 PM"
+      ]
+    },
+    {
+      "room": "LIB OMAC LAB",
+      "eventName": "Csp Classes",
+      "time": [
+        "11:30 AM",
+        "12:50 PM"
+      ]
+    },
+    {
+      "room": "LIB OMAC LAB",
+      "eventName": "Musc 248 0",
+      "time": [
+        "01:00 PM",
+        "04:00 PM"
+      ]
+    },
+    {
+      "room": "LIB OMAC LAB",
+      "eventName": "Arts 107 0",
+      "time": [
+        "04:05 PM",
+        "06:55 PM"
+      ]
+    },
+    {
+      "room": "LIB OMAC LAB",
+      "eventName": "Musc 148 0",
+      "time": [
+        "07:15 PM",
+        "08:40 PM"
+      ]
+    },
+    {
+      "room": "LIBRARY - STUDENT LOUNGE",
+      "eventName": "Educ 141 0",
+      "time": [
+        "02:30 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "room": "MCKINNON GLOBAL FORUM",
+      "eventName": "Deb Workshop",
+      "time": [
+        "06:30 PM",
+        "09:00 PM"
+      ]
+    },
+    {
+      "room": "MCKINNON TENNIS COURTS",
+      "eventName": "Varsity Women's Tennis Practice",
+      "time": [
+        "03:30 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "room": "MOSHER 1",
+      "eventName": "Chem 220 1",
+      "time": [
+        "08:30 AM",
+        "09:25 AM"
+      ]
+    },
+    {
+      "room": "MOSHER 1",
+      "eventName": "Phil 225 0",
+      "time": [
+        "09:35 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "MOSHER 1",
+      "eventName": "Chem 120 2",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "MOSHER 1",
+      "eventName": "Chem 221 3",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "MOSHER 1",
+      "eventName": "Chem 350 0",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "MOSHER 1",
+      "eventName": "Spanish Film Screening",
+      "time": [
+        "07:30 PM",
+        "09:45 PM"
+      ]
+    },
+    {
+      "room": "MOSHER 2",
+      "eventName": "Chem 240 1",
+      "time": [
+        "08:30 AM",
+        "09:25 AM"
+      ]
+    },
+    {
+      "room": "MOSHER 2",
+      "eventName": "Bio 130 1",
+      "time": [
+        "09:35 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "MOSHER 2",
+      "eventName": "Chem 240 2",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "MOSHER 2",
+      "eventName": "Bio 373 0",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "MOSHER 2",
+      "eventName": "Bich 490 0",
+      "time": [
+        "03:00 PM",
+        "04:30 PM"
+      ]
+    },
+    {
+      "room": "MOSHER 3",
+      "eventName": "Comp 367 0",
+      "time": [
+        "09:35 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "MOSHER 3",
+      "eventName": "Chem 220 2",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "MOSHER 3",
+      "eventName": "Comp 229 1",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "MOSHER 3",
+      "eventName": "Pols 244 0",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "MOSHER 3",
+      "eventName": "Chem 150 0",
+      "time": [
+        "04:05 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "room": "MULLIN",
+      "eventName": "Arts 320 0",
+      "time": [
+        "01:00 PM",
+        "04:00 PM"
+      ]
+    },
+    {
+      "room": "MULLIN ENTRANCE",
+      "eventName": "Mullin Grove Maintenance",
+      "time": [
+        "12:00 AM",
+        "11:55 PM"
+      ]
+    },
+    {
+      "room": "MULLIN GROVE",
+      "eventName": "Mullin Grove Maintenance",
+      "time": [
+        "12:00 AM",
+        "11:55 PM"
+      ]
+    },
+    {
+      "room": "NORRIS 103",
+      "eventName": "Chem 221l 1",
+      "time": [
+        "06:30 PM",
+        "09:25 PM"
+      ]
+    },
+    {
+      "room": "NORRIS 110",
+      "eventName": "Chem 221 1",
+      "time": [
+        "08:30 AM",
+        "09:25 AM"
+      ]
+    },
+    {
+      "room": "NORRIS 110",
+      "eventName": "Chem 221 2",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "NORRIS 110",
+      "eventName": "Chem 332 0",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "PARKING - BAER RD WEST",
+      "eventName": "Construction",
+      "time": [
+        "Aug 30 2017",
+        "Jun 30 2018"
+      ]
+    },
+    {
+      "room": "PATTERSON 1",
+      "eventName": "Horizon League Track Meet",
+      "time": [
+        "02:00 PM",
+        "05:00 PM"
+      ]
+    },
+    {
+      "room": "PATTERSON 1",
+      "eventName": "Varsity Track Practice",
+      "time": [
+        "05:00 PM",
+        "07:00 PM"
+      ]
+    },
+    {
+      "room": "PATTERSON 1",
+      "eventName": "Cs Men's Ultimate Practice",
+      "time": [
+        "08:30 PM",
+        "10:30 PM"
+      ]
+    },
+    {
+      "room": "PATTERSON 2",
+      "eventName": "Horizon League Track Meet",
+      "time": [
+        "02:00 PM",
+        "05:00 PM"
+      ]
+    },
+    {
+      "room": "PATTERSON 2",
+      "eventName": "Varsity Track Practice",
+      "time": [
+        "05:00 PM",
+        "07:00 PM"
+      ]
+    },
+    {
+      "room": "PATTERSON 2",
+      "eventName": "Cs Men's Ultimate Practice",
+      "time": [
+        "08:30 PM",
+        "10:30 PM"
+      ]
+    },
+    {
+      "room": "PATTERSON 3",
+      "eventName": "Horizon League Track Meet",
+      "time": [
+        "02:00 PM",
+        "05:00 PM"
+      ]
+    },
+    {
+      "room": "PATTERSON 3",
+      "eventName": "Varsity Track Practice",
+      "time": [
+        "05:00 PM",
+        "07:00 PM"
+      ]
+    },
+    {
+      "room": "PATTERSON 3",
+      "eventName": "Cs Men's Ultimate Practice",
+      "time": [
+        "08:30 PM",
+        "10:30 PM"
+      ]
+    },
+    {
+      "room": "PATTERSON EXTERIOR RESTROOMS",
+      "eventName": "Horizon League Track Meet",
+      "time": [
+        "02:00 PM",
+        "05:00 PM"
+      ]
+    },
+    {
+      "room": "PATTERSON EXTERIOR RESTROOMS",
+      "eventName": "Varsity Track Practice",
+      "time": [
+        "05:00 PM",
+        "07:00 PM"
+      ]
+    },
+    {
+      "room": "PATTERSON EXTERIOR RESTROOMS",
+      "eventName": "Cs Men's Ultimate Practice",
+      "time": [
+        "08:30 PM",
+        "10:30 PM"
+      ]
+    },
+    {
+      "room": "PATTERSON FIELD",
+      "eventName": "Horizon League Track Meet",
+      "time": [
+        "02:00 PM",
+        "05:00 PM"
+      ]
+    },
+    {
+      "room": "PATTERSON FIELD",
+      "eventName": "Varsity Track Practice",
+      "time": [
+        "05:00 PM",
+        "07:00 PM"
+      ]
+    },
+    {
+      "room": "PATTERSON FIELD",
+      "eventName": "Cs Men's Ultimate Practice",
+      "time": [
+        "08:30 PM",
+        "10:30 PM"
+      ]
+    },
+    {
+      "room": "PRESIDENT'S MITCHELL GARDEN",
+      "eventName": "Pub Night",
+      "time": [
+        "06:00 PM",
+        "10:00 PM"
+      ]
+    },
+    {
+      "room": "QUAD - ACADEMIC-CENTER",
+      "eventName": "Hawaii Club Fundraiser",
+      "time": [
+        "11:00 AM",
+        "01:30 PM"
+      ]
+    },
+    {
+      "room": "RANGEV 232",
+      "eventName": "Chin 102 0",
+      "time": [
+        "09:05 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "RANGEV 232",
+      "eventName": "Bio 226 0",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "RANGEV 232",
+      "eventName": "Phys 240 0",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "RANGEV 242",
+      "eventName": "Kine 104 0",
+      "time": [
+        "09:35 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "RANGEV 242",
+      "eventName": "Csp 78 0",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "RANGEV 242",
+      "eventName": "Kine 210 0",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "RANGEV 243",
+      "eventName": "Kine 300 0",
+      "time": [
+        "08:30 AM",
+        "09:25 AM"
+      ]
+    },
+    {
+      "room": "RANGEV 243",
+      "eventName": "Kine 301 0",
+      "time": [
+        "09:35 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "RANGEV 243",
+      "eventName": "Kine 302 0",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "RANGEV 243",
+      "eventName": "Kine 304 0",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "RANGEV 243",
+      "eventName": "Kine 302l 2",
+      "time": [
+        "01:55 PM",
+        "04:50 PM"
+      ]
+    },
+    {
+      "room": "RANGEV 243B",
+      "eventName": "Kine 304l 1",
+      "time": [
+        "03:00 PM",
+        "05:55 PM"
+      ]
+    },
+    {
+      "room": "RANGEV 244",
+      "eventName": "Psyc 321 0",
+      "time": [
+        "08:30 AM",
+        "09:25 AM"
+      ]
+    },
+    {
+      "room": "RANGEV 244",
+      "eventName": "Psyc 200 3",
+      "time": [
+        "09:35 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "RANGEV 244",
+      "eventName": "Ctsj 311 0",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "RANGEV 244",
+      "eventName": "Csp 60 0",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "RANGEV 244",
+      "eventName": "Engl 159 0",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "RANGEV 244",
+      "eventName": "Fren 252 0",
+      "time": [
+        "04:05 PM",
+        "05:00 PM"
+      ]
+    },
+    {
+      "room": "RANGEV 244",
+      "eventName": "Fren 152 0",
+      "time": [
+        "06:00 PM",
+        "06:55 PM"
+      ]
+    },
+    {
+      "room": "RUSH SPIN",
+      "eventName": "Phac 128 1",
+      "time": [
+        "08:15 AM",
+        "09:25 AM"
+      ]
+    },
+    {
+      "room": "RUSH SPIN",
+      "eventName": "Phac 128 3",
+      "time": [
+        "12:00 PM",
+        "12:55 PM"
+      ]
+    },
+    {
+      "room": "SAM PAV-DINING WALL(SOUTH)",
+      "eventName": "Earth Month Photo Contest",
+      "time": [
+        "Apr 16 2018",
+        "Apr 27 2018"
+      ]
+    },
+    {
+      "room": "SOCCER UPPER",
+      "eventName": "Varsity Track Practice",
+      "time": [
+        "05:00 PM",
+        "07:00 PM"
+      ]
+    },
+    {
+      "room": "STEWIE BEACH",
+      "eventName": "Therapy Dogs",
+      "time": [
+        "07:30 PM",
+        "09:00 PM"
+      ]
+    },
+    {
+      "room": "SWAN 111",
+      "eventName": "Csp 50s 2",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "SWAN 111",
+      "eventName": "Csp 81 0",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "SWAN 111",
+      "eventName": "Arab 152 0",
+      "time": [
+        "12:50 PM",
+        "01:45 PM"
+      ]
+    },
+    {
+      "room": "SWAN 227",
+      "eventName": "Faculty Council Meetings",
+      "time": [
+        "12:00 PM",
+        "01:00 PM"
+      ]
+    },
+    {
+      "room": "SWAN 227",
+      "eventName": "Computer Science Mtg",
+      "time": [
+        "01:00 PM",
+        "02:00 PM"
+      ]
+    },
+    {
+      "room": "SWAN 227",
+      "eventName": "Csc Meeting",
+      "time": [
+        "02:00 PM",
+        "03:15 PM"
+      ]
+    },
+    {
+      "room": "SWAN 227",
+      "eventName": "Associate Registrar Search",
+      "time": [
+        "04:30 PM",
+        "05:00 PM"
+      ]
+    },
+    {
+      "room": "SWAN 326",
+      "eventName": "Econ - Research Writing Group - Wed",
+      "time": [
+        "12:00 PM",
+        "02:00 PM"
+      ]
+    },
+    {
+      "room": "TAYLOR POOL",
+      "eventName": "Scaq Swim Practice",
+      "time": [
+        "06:00 AM",
+        "07:00 AM"
+      ]
+    },
+    {
+      "room": "TAYLOR POOL",
+      "eventName": "Varsity Men's Water Polo Non-traditional",
+      "time": [
+        "07:00 AM",
+        "08:30 AM"
+      ]
+    },
+    {
+      "room": "TAYLOR POOL",
+      "eventName": "Open Swim",
+      "time": [
+        "12:00 PM",
+        "02:00 PM"
+      ]
+    },
+    {
+      "room": "TAYLOR POOL",
+      "eventName": "F S H A Swim Practice",
+      "time": [
+        "03:30 PM",
+        "04:30 PM"
+      ]
+    },
+    {
+      "room": "THE CHOI AUDITORIUM",
+      "eventName": "Mac 390 0",
+      "time": [
+        "09:30 AM",
+        "11:25 AM"
+      ]
+    },
+    {
+      "room": "THE CHOI AUDITORIUM",
+      "eventName": "Dry Run - Town Hall",
+      "time": [
+        "11:30 AM",
+        "01:30 PM"
+      ]
+    },
+    {
+      "room": "THE CHOI AUDITORIUM",
+      "eventName": "Mac 143 0",
+      "time": [
+        "01:30 PM",
+        "02:55 PM"
+      ]
+    },
+    {
+      "room": "THE CHOI AUDITORIUM",
+      "eventName": "Ted X Talk Rehearsal",
+      "time": [
+        "03:30 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "room": "THE CHOI AUDITORIUM",
+      "eventName": "Incarceration Awareness Film Screening",
+      "time": [
+        "06:00 PM",
+        "11:00 PM"
+      ]
+    },
+    {
+      "room": "TRACK",
+      "eventName": "Horizon League Track Meet",
+      "time": [
+        "02:00 PM",
+        "05:00 PM"
+      ]
+    },
+    {
+      "room": "TRACK",
+      "eventName": "Varsity Track Practice",
+      "time": [
+        "05:00 PM",
+        "07:00 PM"
+      ]
+    },
+    {
+      "room": "TREE N",
+      "eventName": "Span 341 0",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "TREE N",
+      "eventName": "Phil 380 0",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "TREE N",
+      "eventName": "Phil 305 0",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "TREE N",
+      "eventName": "Uep 303 0",
+      "time": [
+        "04:05 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "room": "TREE S",
+      "eventName": "Rels 242 0",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "TREE S",
+      "eventName": "Csp 69 1",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "TREE S",
+      "eventName": "Csp 69 2",
+      "time": [
+        "12:50 PM",
+        "01:45 PM"
+      ]
+    },
+    {
+      "room": "TREE S",
+      "eventName": "Math 109 0",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "VARELAS INNOVATION LAB",
+      "eventName": "Virtual Realtiy Lab",
+      "time": [
+        "01:30 PM",
+        "02:30 PM"
+      ]
+    },
+    {
+      "room": "VARELAS INNOVATION LAB",
+      "eventName": "Spanish V R",
+      "time": [
+        "06:00 PM",
+        "07:00 PM"
+      ]
+    },
+    {
+      "room": "VARELAS INNOVATION LAB",
+      "eventName": "Dwa 260 0",
+      "time": [
+        "07:15 PM",
+        "10:10 PM"
+      ]
+    },
+    {
+      "room": "WEIN 10",
+      "eventName": "Mac 355 0",
+      "time": [
+        "03:00 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "room": "WEIN 110",
+      "eventName": "Arts 102 0",
+      "time": [
+        "09:00 AM",
+        "11:25 AM"
+      ]
+    },
+    {
+      "room": "WEIN 110",
+      "eventName": "Arts 310 0",
+      "time": [
+        "01:30 PM",
+        "04:25 PM"
+      ]
+    },
+    {
+      "room": "WEIN 116",
+      "eventName": "Span 101 0",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "WEIN 116",
+      "eventName": "Csp 72 0",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "WEIN 116",
+      "eventName": "Psyc 200 1",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "WEIN 117",
+      "eventName": "Rels 110 0",
+      "time": [
+        "09:35 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "WEIN 117",
+      "eventName": "Arth 259 0",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "WEIN 117",
+      "eventName": "Uep 411 0",
+      "time": [
+        "11:40 AM",
+        "01:00 PM"
+      ]
+    },
+    {
+      "room": "WEIN 117",
+      "eventName": "Cogs 101 0",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "WEIN 117",
+      "eventName": "Phil 317 0 Mmp Xl",
+      "time": [
+        "03:00 PM",
+        "04:25 PM"
+      ]
+    },
+    {
+      "room": "WEIN 117",
+      "eventName": "Mac 246 0 Mmp Xl",
+      "time": [
+        "03:00 PM",
+        "04:25 PM"
+      ]
+    },
+    {
+      "room": "WEIN 117",
+      "eventName": "Mac 490 0",
+      "time": [
+        "05:00 PM",
+        "06:25 PM"
+      ]
+    },
+    {
+      "room": "WEIN 117",
+      "eventName": "Feast Movie Series",
+      "time": [
+        "07:00 PM",
+        "09:00 PM"
+      ]
+    },
+    {
+      "room": "WEIN 20",
+      "eventName": "Arts 227 2",
+      "time": [
+        "09:00 AM",
+        "11:25 AM"
+      ]
+    },
+    {
+      "room": "WEIN 209",
+      "eventName": "Arth 272 0",
+      "time": [
+        "09:35 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "WEIN 209",
+      "eventName": "Econ 309 1",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "WEIN 209",
+      "eventName": "Cogs 220 1",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "WEIN 209",
+      "eventName": "Ctsj 160 0",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "WEIN 209",
+      "eventName": "Ctsj 255 0",
+      "time": [
+        "03:00 PM",
+        "03:55 PM"
+      ]
+    },
+    {
+      "room": "WEIN 209",
+      "eventName": "Phil 370 0",
+      "time": [
+        "04:05 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "room": "WEIN 210",
+      "eventName": "Ctsj 210 0",
+      "time": [
+        "09:35 AM",
+        "10:30 AM"
+      ]
+    },
+    {
+      "room": "WEIN 210",
+      "eventName": "Ctsj 215 0 Xl",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "WEIN 210",
+      "eventName": "Wrd 215 0 Xl",
+      "time": [
+        "10:40 AM",
+        "11:35 AM"
+      ]
+    },
+    {
+      "room": "WEIN 210",
+      "eventName": "Csp 65 1",
+      "time": [
+        "11:45 AM",
+        "12:40 PM"
+      ]
+    },
+    {
+      "room": "WEIN 210",
+      "eventName": "Csp 65 2",
+      "time": [
+        "12:50 PM",
+        "01:45 PM"
+      ]
+    },
+    {
+      "room": "WEIN 210",
+      "eventName": "Cogs 220 2",
+      "time": [
+        "01:55 PM",
+        "02:50 PM"
+      ]
+    },
+    {
+      "room": "WEIN 210",
+      "eventName": "Arth 372 0",
+      "time": [
+        "03:00 PM",
+        "03:55 PM"
+      ]
+    },
+    {
+      "room": "WEIN 210",
+      "eventName": "Hist 122 0",
+      "time": [
+        "04:05 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "room": "WEIN 210",
+      "eventName": "Hist 336 0",
+      "time": [
+        "05:40 PM",
+        "07:05 PM"
+      ]
+    },
+    {
+      "room": "WEIN 210",
+      "eventName": "Mac 320 0",
+      "time": [
+        "07:15 PM",
+        "10:10 PM"
+      ]
+    }
+  ]
+}
