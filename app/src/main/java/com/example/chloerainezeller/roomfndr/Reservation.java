@@ -2,10 +2,11 @@ package com.example.chloerainezeller.roomfndr;
 
 import android.content.Context;
 
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
-import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 
 public class Reservation {
@@ -13,32 +14,51 @@ public class Reservation {
     public String roomAssignment;
     public String reservationTime;
 
-    public String retrieveDocumentFromUrl() {
-        /*
-        * TODO:
-        * Pull the HTML from the webpage
-        * Somehow parse it and save it as a JSON file in assets
-        * Parse the JSON file for reservations, and save as objects
-        * Put the reservation objects in an arrayList
-        * */
-
-        // FIXME: Need to generate a timestamp so we can update the URL with the current date
-
-        String title = "";
-        // ArrayList of all the reservation objects, append objects once we have parsed HTML
+    public static ArrayList<Reservation> getReservationsFromFile(String filename, Context context) {
         ArrayList<Reservation> reservationList = new ArrayList<>();
-        try {
-            Document doc = Jsoup.connect("https://mastercalendar.oxy.edu/wv34/wv_servlet/wrd/run/wv_space.DayList?spdt=20180418,spfilter=8945,lbdviewmode=list").get();
-            title = doc.title();
-            System.out.println(title);
 
-        } catch(java.io.IOException e) {
+        try {
+            String jsonString = loadJsonFromAsset("reservations.json", context);
+            JSONObject json = new JSONObject(jsonString);
+            JSONArray reservations = json.getJSONArray("reservations");
+
+            for (int i = 0; i < reservations.length(); i++) {
+                Reservation reservation = new Reservation();
+                reservation.reservationDescription = reservations.getJSONObject(i).getString("eventName");
+                reservation.roomAssignment = reservations.getJSONObject(i).getString("room");
+                reservation.reservationTime = reservations.getJSONObject(i).getString("time");
+
+                reservationList.add(reservation);
+            }
+
+        } catch (JSONException e) {
             e.printStackTrace();
         }
 
-        return title;
-
+        return reservationList;
     }
+
+    private static String loadJsonFromAsset(String filename, Context context) {
+        String json = null;
+
+        // loads the file from the assets folder under that context, reads in as a string
+        try {
+            InputStream is = context.getAssets().open(filename);
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+            json = new String(buffer, "UTF-8");
+        }
+        catch (java.io.IOException ex) {
+            ex.printStackTrace();
+            return null;
+        }
+
+        return json;
+    }
+
+
 
 
 
