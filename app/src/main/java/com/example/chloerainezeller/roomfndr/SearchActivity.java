@@ -52,7 +52,7 @@ public class SearchActivity extends AppCompatActivity {
         // a list of all the reservations for the day
         ArrayList<Reservation> dailyReservations = Reservation.getReservationsFromFile(
                 "reservations.json", this);
-        System.out.println(dailyReservations.get(0).reservationDescription);
+
 
 
         //ArrayList<String> searchResults = findSearchResults();
