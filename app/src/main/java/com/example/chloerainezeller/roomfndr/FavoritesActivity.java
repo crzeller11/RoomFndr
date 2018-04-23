@@ -16,7 +16,7 @@ public class FavoritesActivity extends AppCompatActivity {
         setContentView(R.layout.favorites_activity);
 
         myContext = this;
-        favoriteRoomsListView = findViewById(R.id.myFavoritesListView);
+        //favoriteRoomsListView = findViewById(R.id.myFavoritesListView);
 
 
 

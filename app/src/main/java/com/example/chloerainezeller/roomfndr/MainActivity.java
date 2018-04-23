@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 
 // FRONT PAGE, HAS APP TITLE, AND FIND A ROOM/MAKE ROOM REQUEST BUTTONS
+// FINISHED
 public class MainActivity extends AppCompatActivity {
 
     public Context myContext;
@@ -24,10 +25,6 @@ public class MainActivity extends AppCompatActivity {
 
         findRoomButton = findViewById(R.id.findRoomButton);
         makeRoomRequestButton = findViewById(R.id.roomRequestButton);
-
-        Reservation halp = new Reservation();
-        halp.reservationDescription = "Pls work...";
-        String test = halp.retrieveDocumentFromUrl();
 
 
     }
