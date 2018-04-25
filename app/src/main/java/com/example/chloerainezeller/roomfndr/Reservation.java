@@ -20,18 +20,13 @@ public class Reservation {
         try {
             String jsonString = loadJsonFromAsset("reservations.json", context);
             JSONObject json = new JSONObject(jsonString);
-            System.out.println(json);
             JSONArray reservations = json.getJSONArray("reservations");
 
             for (int i = 0; i < reservations.length(); i++) {
                 Reservation reservation = new Reservation();
-                System.out.println("RESERVATION DESCRIPTION: " + reservations.getJSONObject(i).getString("eventName"));
                 reservation.reservationDescription = reservations.getJSONObject(i).getString("eventName");
                 reservation.roomAssignment = reservations.getJSONObject(i).getString("room");
-                System.out.println(reservation.roomAssignment);
-
                 reservation.reservationTime = reservations.getJSONObject(i).getString("time");
-
                 reservationList.add(reservation);
             }
 
@@ -44,8 +39,6 @@ public class Reservation {
 
     private static String loadJsonFromAsset(String filename, Context context) {
         String json = null;
-
-        // loads the file from the assets folder under that context, reads in as a string
         try {
             InputStream is = context.getAssets().open(filename);
             int size = is.available();
