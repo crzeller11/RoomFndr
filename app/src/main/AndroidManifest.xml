@@ -20,6 +20,8 @@
         <activity android:name=".SearchActivity"/>
         <activity android:name=".FavoritesActivity"/>
         <activity android:name=".SearchResultActivity"/>
+        <activity android:name=".DatabaseHelper"/>
+
     </application>
 
 </manifest>

@@ -12,6 +12,8 @@ import android.widget.Button;
 // FINISHED
 public class MainActivity extends AppCompatActivity {
 
+
+
     public Context myContext;
     private Button findRoomButton;
     private Button makeRoomRequestButton;
