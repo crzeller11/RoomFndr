@@ -5,46 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
-    <TextView
-        android:id="@+id/titleTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="65dp"
-        android:text="@string/search_title"
-        android:textSize="25sp" />
-
-    <TextView
-        android:id="@+id/buildingTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/titleTextView"
-        android:layout_marginTop="145dp"
-        android:text="@string/building"
-        android:textSize="18sp" />
-
-
-    <TextView
-        android:id="@+id/floorTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/titleTextView"
-        android:layout_alignTop="@+id/floorEditText"
-        android:text="@string/floor"
-        android:textSize="18sp" />
-
-
-    <ListView
-        android:id="@+id/searchResultsListView"
-        android:layout_width="match_parent"
-        android:layout_height="182dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="0dp" />
-
     <Button
         android:id="@+id/favoritesButton"
         android:layout_width="wrap_content"
@@ -60,39 +20,40 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        app:srcCompat="?attr/actionModeCloseDrawable"
-        android:onClick="goBack"/>
+        android:onClick="goBack"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
 
-    <Button
-        android:id="@+id/searchButton"
-        android:layout_width="135dp"
-        android:layout_height="44dp"
-        android:layout_alignParentBottom="true"
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="195dp"
-        android:onClick="search"
-        android:text="Search" />
+        android:layout_marginTop="86dp"
+        android:text="@string/search_title"
+        android:textSize="25sp" />
 
     <EditText
         android:id="@+id/buildingEditText"
-        android:layout_width="wrap_content"
+        android:layout_width="360dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignTop="@+id/buildingTextView"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name" />
-
-    <EditText
-        android:id="@+id/floorEditText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="212dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="152dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name" />
+        android:hint="@string/hint"
+        android:inputType="textPersonName" />
+
+    <ListView
+        android:id="@+id/searchResultsListView"
+        android:layout_width="match_parent"
+        android:layout_height="182dp"
+        android:layout_below="@id/buildingEditText"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="0dp" />
+
+
 
 
 </RelativeLayout>

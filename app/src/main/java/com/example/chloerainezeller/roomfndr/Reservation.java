@@ -27,7 +27,6 @@ public class Reservation {
                 reservation.reservationDescription = reservations.getJSONObject(i).getString("eventName");
                 reservation.roomAssignment = reservations.getJSONObject(i).getString("room");
                 reservation.reservationTime = reservations.getJSONObject(i).getString("time");
-
                 reservationList.add(reservation);
             }
 
@@ -40,8 +39,6 @@ public class Reservation {
 
     private static String loadJsonFromAsset(String filename, Context context) {
         String json = null;
-
-        // loads the file from the assets folder under that context, reads in as a string
         try {
             InputStream is = context.getAssets().open(filename);
             int size = is.available();
