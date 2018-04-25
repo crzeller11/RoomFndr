@@ -14,19 +14,32 @@ public class SearchResultActivity extends AppCompatActivity {
     private ImageButton shareRoomButton;
     private ImageButton emailOSLButton;
     private ImageButton addToFavoritesButton;
+    DatabaseHelper myDb;
+
+
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.search_result_activity);
 
+        setContentView(R.layout.search_result_activity);
         myContext = this;
+        myDb = new DatabaseHelper(this);
+
+
         goBackButton = findViewById(R.id.backButtonSearchResult);
         shareRoomButton = findViewById(R.id.shareThisRoomButton);
         emailOSLButton = findViewById(R.id.emailOSLButton);
         addToFavoritesButton = findViewById(R.id.addFavoriteButton);
+
+        addToFavoritesButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
 
 
     }
@@ -36,4 +49,6 @@ public class SearchResultActivity extends AppCompatActivity {
         Intent intent = new Intent(myContext, SearchActivity.class);
         startActivity(intent);
     }
+
+    //FA
 }
