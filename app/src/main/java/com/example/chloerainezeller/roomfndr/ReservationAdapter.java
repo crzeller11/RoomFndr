@@ -6,20 +6,28 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.Filter;
+import android.widget.Filterable;
 import android.widget.TextView;
 
 import java.util.ArrayList;
 
 public class ReservationAdapter extends BaseAdapter {
+//public class ReservationAdapter extends BaseAdapter implements Filterable {
 
     private Context myContext;
     private ArrayList<Reservation> myReservationList;
     private LayoutInflater myInflater;
 
+    //private ArrayList<Reservation> originalData;
+    //private ArrayList<Reservation> filteredData;
+
     public ReservationAdapter(Context myContext, ArrayList<Reservation> myReservationList) {
         this.myContext = myContext;
         this.myReservationList = myReservationList;
         myInflater = (LayoutInflater) myContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        //this.originalData = myReservationList;
+        //this.filteredData = myReservationList;
     }
 
     @Override
@@ -37,13 +45,9 @@ public class ReservationAdapter extends BaseAdapter {
 
         if (convertView == null) {
             convertView = myInflater.inflate(R.layout.list_item_room, parent, false);
-
             holder = new ViewHolder();
-
             holder.roomNumberTextView = convertView.findViewById(R.id.roomListName);
-
             convertView.setTag(holder);
-
         } else {
             holder = (ViewHolder) convertView.getTag();
         }
@@ -57,6 +61,37 @@ public class ReservationAdapter extends BaseAdapter {
 
         return convertView;
     }
+    /*
+    @Override
+    public Filter getFilter() {
+        return new Filter() {
+            @Override
+            protected FilterResults performFiltering(CharSequence charSequence) {
+                FilterResults results = new FilterResults();
+                if (charSequence == null || charSequence.length() == 0) {
+                    results.values = originalData;
+                    results.count = originalData.size();
+                } else {
+                    ArrayList<Reservation> filterResultData = new ArrayList<>();
+                    for (Reservation reservation: originalData) {
+                        if (reservation.roomAssignment.toLowerCase().contains(charSequence.toString().toLowerCase())) {
+                            filterResultData.add(reservation);
+                        }
+                    }
+                    results.values = filterResultData;
+                    results.count =filterResultData.size();
+                }
+                return results;
+            }
+
+            @Override
+            protected void publishResults(CharSequence charSequence, FilterResults filterResults) {
+                myReservationList =(ArrayList<Reservation>) filterResults.values;
+                notifyDataSetChanged();
+            }
+        };
+    }
+    */
 
     private static class ViewHolder {
         public TextView roomNumberTextView;

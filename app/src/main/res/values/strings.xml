@@ -2,7 +2,7 @@
     <string name="app_name">RoomFndr</string>
     <string name="find_room">Find a room</string>
     <string name="room_request">Make a room request</string>
-    <string name="search_title">Find an Available Room:</string>
+    <string name="search_title">Available Rooms:</string>
     <string name="building">Building</string>
     <string name="floor">Floor</string>
     <string name="search_results">Search Results:</string>
@@ -14,4 +14,5 @@
     <string name="email_osl">Email the Office of Student List to Reserve</string>
     <string name="add_to_favs">Favorite this room</string>
     <string name="room_name">Room Name</string>
+    <string name="hint">Enter a room...</string>
 </resources>
