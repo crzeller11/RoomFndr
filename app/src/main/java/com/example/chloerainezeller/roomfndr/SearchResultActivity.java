@@ -6,10 +6,12 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.TextView;
 
 public class SearchResultActivity extends AppCompatActivity {
 
     private Context myContext;
+    private TextView roomNumber;
     private ImageButton goBackButton;
     private ImageButton shareRoomButton;
     private ImageButton emailOSLButton;
@@ -28,7 +30,7 @@ public class SearchResultActivity extends AppCompatActivity {
         myContext = this;
         myDb = new DatabaseHelper(this);
 
-
+        roomNumber = findViewById(R.id.roomNumber);
         goBackButton = findViewById(R.id.backButtonSearchResult);
         shareRoomButton = findViewById(R.id.shareThisRoomButton);
         emailOSLButton = findViewById(R.id.emailOSLButton);
@@ -40,7 +42,8 @@ public class SearchResultActivity extends AppCompatActivity {
 
             }
         });
-
+        String roomName = this.getIntent().getExtras().getString("roomName");
+        roomNumber.setText(roomName);
 
     }
 

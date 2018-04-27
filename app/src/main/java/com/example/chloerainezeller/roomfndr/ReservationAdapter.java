@@ -61,37 +61,6 @@ public class ReservationAdapter extends BaseAdapter {
 
         return convertView;
     }
-    /*
-    @Override
-    public Filter getFilter() {
-        return new Filter() {
-            @Override
-            protected FilterResults performFiltering(CharSequence charSequence) {
-                FilterResults results = new FilterResults();
-                if (charSequence == null || charSequence.length() == 0) {
-                    results.values = originalData;
-                    results.count = originalData.size();
-                } else {
-                    ArrayList<Reservation> filterResultData = new ArrayList<>();
-                    for (Reservation reservation: originalData) {
-                        if (reservation.roomAssignment.toLowerCase().contains(charSequence.toString().toLowerCase())) {
-                            filterResultData.add(reservation);
-                        }
-                    }
-                    results.values = filterResultData;
-                    results.count =filterResultData.size();
-                }
-                return results;
-            }
-
-            @Override
-            protected void publishResults(CharSequence charSequence, FilterResults filterResults) {
-                myReservationList =(ArrayList<Reservation>) filterResults.values;
-                notifyDataSetChanged();
-            }
-        };
-    }
-    */
 
     private static class ViewHolder {
         public TextView roomNumberTextView;

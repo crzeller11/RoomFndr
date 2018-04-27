@@ -10,7 +10,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -34,11 +33,6 @@ public class SearchActivity extends AppCompatActivity {
 
     private EditText buildingEditText;
     private ListView roomListView;
-    private ReservationAdapter adapter;
-
-
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,7 +45,7 @@ public class SearchActivity extends AppCompatActivity {
         Calendar cal = Calendar.getInstance();
         String time = "" + cal.get(Calendar.HOUR_OF_DAY) + ":" + cal.get(Calendar.MINUTE);
         String[] hour_min = time.split(":");
-        ArrayList<String> availableRooms = findAvailableRooms(dailyReservations, hour_min);
+        final ArrayList<String> availableRooms = findAvailableRooms(dailyReservations, hour_min);
         System.out.println("AVAILABLE ROOMS TODAY: " + availableRooms);
 
         // FIXME: The adapter really only needs to store the ArrayList of strings, not of Reservations
@@ -87,16 +81,19 @@ public class SearchActivity extends AppCompatActivity {
             }
         });
 
-        /*
+
         roomListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                String selectedRoom = availableRooms.get(position);
+                Intent detailIntent = new Intent(myContext, SearchResultActivity.class);
 
+                detailIntent.putExtra("roomName", selectedRoom);
+
+                startActivity(detailIntent);
             }
         });
 
-        // TODO: Configure search button method below
-        */
 
 
     }
