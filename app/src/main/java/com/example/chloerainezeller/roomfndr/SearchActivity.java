@@ -33,6 +33,7 @@ public class SearchActivity extends AppCompatActivity {
 
     private EditText buildingEditText;
     private ListView roomListView;
+    private MyAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,10 +47,7 @@ public class SearchActivity extends AppCompatActivity {
         String time = "" + cal.get(Calendar.HOUR_OF_DAY) + ":" + cal.get(Calendar.MINUTE);
         String[] hour_min = time.split(":");
         final ArrayList<String> availableRooms = findAvailableRooms(dailyReservations, hour_min);
-        System.out.println("AVAILABLE ROOMS TODAY: " + availableRooms);
 
-        // FIXME: The adapter really only needs to store the ArrayList of strings, not of Reservations
-        //adapter = new ReservationAdapter(this, refinedReservations);
 
         favoritesButton = findViewById(R.id.favoritesButton);
         backButton = findViewById(R.id.backButtonSearch);
@@ -58,10 +56,10 @@ public class SearchActivity extends AppCompatActivity {
 
         // FIXME: Refine by the current time of day
 
-        final MyAdapter adapter = new MyAdapter(this, availableRooms);
+        adapter = new MyAdapter(this, availableRooms);
         roomListView.setAdapter(adapter);
 
-        EditText filterEditText = (EditText) findViewById(R.id.buildingEditText);
+        final EditText filterEditText = (EditText) findViewById(R.id.buildingEditText);
 
         // Add Text Change Listener to EditText
         filterEditText.addTextChangedListener(new TextWatcher() {
@@ -73,7 +71,7 @@ public class SearchActivity extends AppCompatActivity {
             }
 
             @Override
-            public void beforeTextChanged(CharSequence s, int start, int count,int after) {
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
             }
 
             @Override
@@ -85,12 +83,22 @@ public class SearchActivity extends AppCompatActivity {
         roomListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                // pass the object of that row, put it into the intent
+
+                TextView text1 = (TextView) roomListView.findViewById(android.R.id.text1);
+
+                Intent i = new Intent(SearchActivity.this, SearchResultActivity.class);
+                i.putExtra("selectedTitle", text1.getText());
+                startActivity(i);
+                /*
                 String selectedRoom = availableRooms.get(position);
+                System.out.println("WHAT IS THIS: " + );
                 Intent detailIntent = new Intent(myContext, SearchResultActivity.class);
 
                 detailIntent.putExtra("roomName", selectedRoom);
 
                 startActivity(detailIntent);
+                */
             }
         });
 
