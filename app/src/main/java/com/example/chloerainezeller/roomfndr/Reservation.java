@@ -12,7 +12,8 @@ import java.util.ArrayList;
 public class Reservation {
     public String reservationDescription;
     public String roomAssignment;
-    public String reservationTime;
+    public String startTime;
+    public String endTime;
 
     public static ArrayList<Reservation> getReservationsFromFile(String filename, Context context) {
         ArrayList<Reservation> reservationList = new ArrayList<>();
@@ -26,7 +27,10 @@ public class Reservation {
                 Reservation reservation = new Reservation();
                 reservation.reservationDescription = reservations.getJSONObject(i).getString("eventName");
                 reservation.roomAssignment = reservations.getJSONObject(i).getString("room");
-                reservation.reservationTime = reservations.getJSONObject(i).getString("time");
+                reservation.startTime = reservations.getJSONObject(i).getJSONObject("time")
+                        .getString("start_time");
+                reservation.endTime = reservations.getJSONObject(i).getJSONObject("time")
+                        .getString("end_time");
                 reservationList.add(reservation);
             }
 
