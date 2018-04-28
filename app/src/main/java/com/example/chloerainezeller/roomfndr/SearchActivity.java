@@ -83,22 +83,13 @@ public class SearchActivity extends AppCompatActivity {
         roomListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                // pass the object of that row, put it into the intent
-
-                TextView text1 = (TextView) roomListView.findViewById(android.R.id.text1);
-
-                Intent i = new Intent(SearchActivity.this, SearchResultActivity.class);
-                i.putExtra("selectedTitle", text1.getText());
-                startActivity(i);
-                /*
-                String selectedRoom = availableRooms.get(position);
-                System.out.println("WHAT IS THIS: " + );
+                Object itemName = roomListView.getItemAtPosition(position);
+                String selectedRoom = itemName.toString();
                 Intent detailIntent = new Intent(myContext, SearchResultActivity.class);
 
                 detailIntent.putExtra("roomName", selectedRoom);
 
                 startActivity(detailIntent);
-                */
             }
         });
 
@@ -239,7 +230,7 @@ public class SearchActivity extends AppCompatActivity {
 
         @Override
         public Object getItem(int position) {
-            return position;
+            return arrayList.get(position);
         }
 
         @Override
@@ -260,8 +251,7 @@ public class SearchActivity extends AppCompatActivity {
 
                 holder = new ViewHolder();
                 convertView = inflater.inflate(R.layout.list_item_room, null);
-                holder.textView = (TextView) convertView
-                        .findViewById(R.id.roomListName);
+                holder.textView = convertView.findViewById(R.id.roomListName);
                 convertView.setTag(holder);
             } else {
                 holder = (ViewHolder) convertView.getTag();
@@ -270,6 +260,9 @@ public class SearchActivity extends AppCompatActivity {
             return convertView;
         }
 
+
+
+        // TODO: Figure out how to pass the final list of filtered things to onCreate
         @Override
         public Filter getFilter() {
             Filter filter = new Filter() {
@@ -310,6 +303,8 @@ public class SearchActivity extends AppCompatActivity {
                     }
                     return results;
                 }
+
+
             };
             return filter;
         }
