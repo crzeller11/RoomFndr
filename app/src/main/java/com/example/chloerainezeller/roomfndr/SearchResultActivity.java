@@ -59,6 +59,19 @@ public class SearchResultActivity extends AppCompatActivity {
             }
         });
 
+        emailOSLButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent emailIntent = new Intent(android.content.Intent.ACTION_SEND);
+                emailIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                emailIntent.setType("vnd.android.cursor.item/email");
+                emailIntent.putExtra(android.content.Intent.EXTRA_EMAIL, new String[] {"oslpa@oxy.edu"});
+                emailIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "My Email Subject");
+                emailIntent.putExtra(android.content.Intent.EXTRA_TEXT, "My email content");
+                startActivity(Intent.createChooser(emailIntent, "Send mail using..."));
+            }
+        });
+
     }
 
     // back button to the search activity
