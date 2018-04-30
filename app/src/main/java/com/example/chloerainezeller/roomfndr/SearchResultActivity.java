@@ -80,5 +80,4 @@ public class SearchResultActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    //FA
 }
