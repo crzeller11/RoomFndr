@@ -185,7 +185,7 @@ public class SearchActivity extends AppCompatActivity {
 
     public ArrayList<String> allRooms() {
         ArrayList<String> allRooms = new ArrayList<>(Arrays.asList(
-                "BIOS 105", "BIOS 106", "BIOS 111", "BIOS 113", "BIOS 200", "BIOS 210",
+                "AGYM 21", "BIOS 105", "BIOS 106", "BIOS 111", "BIOS 113", "BIOS 200", "BIOS 210",
                 "BIOS 309", "BIOS 311", "BOOTH 118", "BOOTH 119", "BOOTH 204", "BOOTH 208",
                 "BOOTH 223A", "BOOTH 223B", "BOOTH 224", "BOOTH 226", "FOWLER 108", "FOWLER 110",
                 "FOWLER 111", "FOWLER 112", "FOWLER 113", "FOWLER 201", "FOWLER 202", "FOWLER 207",

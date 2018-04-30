@@ -25,31 +25,31 @@
 
     <ImageButton
         android:id="@+id/shareThisRoomButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="65dp"
         android:layout_marginTop="144dp"
-        app:srcCompat="@android:drawable/ic_menu_set_as" />
+        android:background="@drawable/sms" />
 
     <ImageButton
         android:id="@+id/emailOSLButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/shareThisRoomButton"
         android:layout_marginBottom="203dp"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        android:background="@drawable/email1" />
 
     <ImageButton
         android:id="@+id/addFavoriteButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/shareThisRoomButton"
         android:layout_marginBottom="95dp"
-        app:srcCompat="@android:drawable/btn_star" />
+        android:background="@drawable/favorite" />
 
     <TextView
         android:id="@+id/shareRoomTextView"
