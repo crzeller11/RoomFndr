@@ -1,41 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/white">
 
-    <TextView
-        android:id="@+id/appTitleTextView"
+    <ImageView
+        android:id="@+id/titleImageView"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/app_name"
-        android:textSize="50sp"
-        android:layout_marginTop="130dp"
-        android:layout_centerHorizontal="true"
-        />
+        android:layout_height="266dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="21dp"
+        app:srcCompat="@drawable/roomfndr" />
 
     <Button
         android:id="@+id/findRoomButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/find_room"
-        android:layout_below="@+id/appTitleTextView"
-        android:layout_marginTop="70dp"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:textSize="15sp"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="126dp"
+        android:fontFamily="@font/main_bold"
         android:onClick="findRoom"
-        />
+        android:text="@string/find_room"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+         />
 
     <Button
         android:id="@+id/roomRequestButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/room_request"
-        android:layout_below="@+id/findRoomButton"
-        android:layout_marginTop="50dp"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:textSize="15sp"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp"
+        android:fontFamily="@font/main_bold"
         android:onClick="roomRequest"
+        android:text="@string/room_request"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
          />
+
 
 
 

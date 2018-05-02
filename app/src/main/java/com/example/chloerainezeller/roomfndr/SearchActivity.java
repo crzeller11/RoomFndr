@@ -125,14 +125,16 @@ public class SearchActivity extends AppCompatActivity {
             ArrayList<Reservation> roomReservations = roomOccupation.get(room);
             for (int i = 0; i < roomReservations.size(); i++) {
                 Reservation currentReservation = roomReservations.get(i);
-                if (!currentReservation.startTime.contains(":") && !currentReservation.endTime.contains(":")) {
+                if (!currentReservation.startTime.contains(":") &&
+                        !currentReservation.endTime.contains(":")) {
                     continue;
                 }
                 int startMin = Integer.parseInt(currentReservation.startTime.substring(3, 5));
                 int endMin = Integer.parseInt(currentReservation.endTime.substring(3,5));
                 int startHour;
                 int endHour;
-                if (currentReservation.startTime.contains("PM") && !currentReservation.startTime.contains("12")) {
+                if (currentReservation.startTime.contains("PM") &&
+                        !currentReservation.startTime.contains("12")) {
                     startHour = Integer.parseInt(currentReservation.startTime.substring(0,2)) + 12;
                 } else {
                     startHour = Integer.parseInt(currentReservation.startTime.substring(0, 2));
@@ -144,6 +146,8 @@ public class SearchActivity extends AppCompatActivity {
                 }
                 if (!isConflict(curHour, curMinute, startHour, startMin, endHour, endMin)) {
                     openRooms.add(room);
+                    break;
+                    // FIXME: THERE SHOULD BE A CONTINUE HERE TO MOVE TO THE NEXT ROOM IF IT'S ADDED
                 }
             }
         }
@@ -277,11 +281,11 @@ public class SearchActivity extends AppCompatActivity {
 
                 @Override
                 protected FilterResults performFiltering(CharSequence constraint) {
-                    FilterResults results = new FilterResults();        // Holds the results of a filtering operation in values
+                    FilterResults results = new FilterResults();
                     ArrayList<String> FilteredArrList = new ArrayList<String>();
 
                     if (mOriginalValues == null) {
-                        mOriginalValues = new ArrayList<String>(arrayList); // saves the original data in mOriginalValues
+                        mOriginalValues = new ArrayList<String>(arrayList);
                     }
 
                     if (constraint == null || constraint.length() == 0) {
