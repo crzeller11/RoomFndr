@@ -36,13 +36,11 @@ public class DatabaseHelper extends SQLiteOpenHelper{
         sqLiteDatabase.execSQL("DROP TABLE IF EXISTS " + TABLE_NAME);
         onCreate(sqLiteDatabase);
     }
-    public boolean insertData(String roomname, String building, String roomnumber){
+    public boolean insertData(String roomname){
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues cv= new ContentValues();
 
         cv.put(COL_2,roomname);
-        cv.put(COL_3,building);
-        cv.put(COL_4,roomnumber);
 
         long result = db.insert(TABLE_NAME, null,cv);
         return (result!=-1);

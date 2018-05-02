@@ -12,16 +12,24 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="64dp"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/main_light"
         android:text="@string/room_nbr" />
 
     <ImageButton
         android:id="@+id/backButtonSearchResult"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
         android:layout_alignParentTop="true"
-        app:srcCompat="?attr/actionModeCloseDrawable"
-        android:onClick="goToSearch"/>
+        android:onClick="goToSearch"
+        android:scaleType="fitXY"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:src="@drawable/back_button"
+        style="?android:attr/borderlessButtonStyle"/>
 
     <ImageButton
         android:id="@+id/shareThisRoomButton"
@@ -59,7 +67,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginEnd="125dp"
         android:layout_marginTop="161dp"
-        android:text="@string/share_room" />
+        android:text="@string/share_room"
+        android:fontFamily="@font/main_light"/>
 
     <TextView
         android:id="@+id/emailOSLTextView"
@@ -68,7 +77,8 @@
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/shareRoomTextView"
         android:layout_marginBottom="219dp"
-        android:text="@string/email_osl" />
+        android:text="@string/email_osl"
+        android:fontFamily="@font/main_light"/>
 
     <TextView
         android:id="@+id/addFavoriteTextView"
@@ -77,5 +87,6 @@
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/shareRoomTextView"
         android:layout_marginBottom="114dp"
-        android:text="@string/add_to_favs" />
+        android:text="@string/add_to_favs"
+        android:fontFamily="@font/main_light"/>
 </RelativeLayout>

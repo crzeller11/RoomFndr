@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">RoomFndr</string>
+    <string name="app_name">RmFndr</string>
     <string name="find_room">find a room</string>
     <string name="room_request">make a room request</string>
     <string name="search_title">Available Rooms:</string>
@@ -11,8 +11,9 @@
     <string name="search">Search</string>
     <string name="room_nbr">Room Number</string>
     <string name="share_room">Share this room</string>
-    <string name="email_osl">Email the Office of Student List to Reserve</string>
-    <string name="add_to_favs">Favorite this room</string>
+    <string name="email_osl">Email OSL to Reserve</string>
+    <string name="add_to_favs">Add to Favorites</string>
     <string name="room_name">Room Name</string>
     <string name="hint">Enter a room...</string>
+    <string name="back_arrow"><b>←</b></string>
 </resources>

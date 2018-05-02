@@ -51,7 +51,6 @@ public class SearchActivity extends AppCompatActivity {
 
         favoritesButton = findViewById(R.id.favoritesButton);
         backButton = findViewById(R.id.backButtonSearch);
-        buildingEditText = findViewById(R.id.buildingEditText);
         roomListView = findViewById(R.id.searchResultsListView);
 
         // FIXME: Refine by the current time of day
@@ -106,6 +105,7 @@ public class SearchActivity extends AppCompatActivity {
 
     // back button, goes back to MainActivity
     public void goBack(View view) {
+        System.out.println("REACHED THE GO BACK SECTION!");
         Intent intent = new Intent(myContext, MainActivity.class);
         startActivity(intent);
     }
