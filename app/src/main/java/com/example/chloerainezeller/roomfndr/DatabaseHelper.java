@@ -17,8 +17,6 @@ public class DatabaseHelper extends SQLiteOpenHelper{
     //column names
     public static final String COL_1 = "ID";
     public static final String COL_2 = "ROOMNAME";
-    public static final String COL_3 = "BUILDING";
-    public static final String COL_4 = "ROOMNUMBER";
 
     public DatabaseHelper(Context context){
         super(context,DATABASE_NAME, null,1);
@@ -38,12 +36,12 @@ public class DatabaseHelper extends SQLiteOpenHelper{
     }
     public boolean insertData(String roomname){
         SQLiteDatabase db = this.getWritableDatabase();
-        ContentValues cv= new ContentValues();
+        ContentValues cv = new ContentValues();
 
         cv.put(COL_2,roomname);
 
         long result = db.insert(TABLE_NAME, null,cv);
-        return (result!=-1);
+        return (result != -1);
     }
     public Cursor getAllData(){
         SQLiteDatabase db = this.getWritableDatabase();

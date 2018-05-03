@@ -19,7 +19,7 @@
     <Button
         android:id="@+id/findRoomButton"
         android:layout_width="180dp"
-        android:layout_height="50dp"
+        android:layout_height="35dp"
         android:textSize="15sp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
@@ -35,7 +35,7 @@
     <Button
         android:id="@+id/roomRequestButton"
         android:layout_width="180dp"
-        android:layout_height="50dp"
+        android:layout_height="35dp"
         android:textSize="15sp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"

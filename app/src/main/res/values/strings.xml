@@ -16,4 +16,5 @@
     <string name="room_name">Room Name</string>
     <string name="hint">Enter a room...</string>
     <string name="back_arrow"><b>←</b></string>
+    <string name="available">Room Availability</string>
 </resources>
