@@ -16,23 +16,19 @@ public class FavoritesActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.favorites_activity);
-        myContext = this;}
+        myContext = this;
+    }
 
-        //favoriteRoomsListView = findViewById(R.id.myFavoritesListView);
+    //favoriteRoomsListView = findViewById(R.id.myFavoritesListView);
     public void goBack(View view) {
         Intent intent = new Intent(myContext, SearchActivity.class);
         startActivity(intent);
     }
 
-    }
-
-    public void goBack(View view) {
-        Intent intent = new Intent(myContext, SearchActivity.class);
-        startActivity(intent);
-    }
 
     public void addToFavorites(View view) {
         // FIXME
         Intent intent = new Intent(myContext, FavoriteAddActivity.class);
         startActivity(intent);
     }
+}
