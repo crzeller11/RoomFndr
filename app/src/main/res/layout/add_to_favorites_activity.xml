@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewAddToFavorites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:text="Add room to favorites"
+        android:fontFamily="@font/main_light"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/editTextFavorites"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="130dp"
+        android:ems="10"
+        android:hint="@string/hint"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <ListView
+        android:id="@+id/favoritesListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="197dp" />
+
+    <ImageButton
+        android:id="@+id/imageButtonGoBackFavs"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_alignParentStart="true"
+        android:scaleType="fitXY"
+        android:onClick="favoritesGoBack"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/back_button" />
+</RelativeLayout>

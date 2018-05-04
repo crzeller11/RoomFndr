@@ -7,11 +7,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageButton;
-<<<<<<<
 import android.widget.TextView;
-=======
 import android.widget.Toast;
->>>>>>>
 
 public class SearchResultActivity extends AppCompatActivity {
 
@@ -44,16 +41,12 @@ public class SearchResultActivity extends AppCompatActivity {
         addToFavoritesButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                boolean isInserted= myDb.insertData(roomName.getText().toString());
-                if (isInserted==true){
-                    Toast.makeText(SearchResultActivity.this,"Data Inserted",Toast.LENGTH_SHORT).show();
+                boolean isInserted = myDb.insertData(roomNumber.getText().toString());
+                if (isInserted) {
+                    Toast.makeText(SearchResultActivity.this, "Saved to favorites!", Toast.LENGTH_SHORT).show();
+                } else {
+                    Toast.makeText(SearchResultActivity.this, "Not saved to favorites", Toast.LENGTH_SHORT).show();
                 }
-                else {
-                    Toast.makeText(SearchResultActivity.this,"Data Not Inserted",Toast.LENGTH_SHORT).show();
-
-
-                }
-
             }
         });
 
@@ -93,5 +86,6 @@ public class SearchResultActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    //FA
+
+
 }

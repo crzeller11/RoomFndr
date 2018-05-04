@@ -51,7 +51,6 @@ public class SearchActivity extends AppCompatActivity {
 
         favoritesButton = findViewById(R.id.favoritesButton);
         backButton = findViewById(R.id.backButtonSearch);
-        buildingEditText = findViewById(R.id.buildingEditText);
         roomListView = findViewById(R.id.searchResultsListView);
 
         // FIXME: Refine by the current time of day
@@ -106,6 +105,7 @@ public class SearchActivity extends AppCompatActivity {
 
     // back button, goes back to MainActivity
     public void goBack(View view) {
+        System.out.println("REACHED THE GO BACK SECTION!");
         Intent intent = new Intent(myContext, MainActivity.class);
         startActivity(intent);
     }
@@ -116,6 +116,10 @@ public class SearchActivity extends AppCompatActivity {
         ArrayList<String> allRooms = allRooms();
         HashMap<String, ArrayList> roomOccupation = roomOccupation(dailyReservations);
 
+        if (dailyReservations.size() == 0) {
+            return allRooms;
+        }
+
         //int curHour = Integer.parseInt(timestamp[0]);
         //int curMinute = Integer.parseInt(timestamp[1]);
         int curHour = 17;
@@ -125,14 +129,16 @@ public class SearchActivity extends AppCompatActivity {
             ArrayList<Reservation> roomReservations = roomOccupation.get(room);
             for (int i = 0; i < roomReservations.size(); i++) {
                 Reservation currentReservation = roomReservations.get(i);
-                if (!currentReservation.startTime.contains(":") && !currentReservation.endTime.contains(":")) {
+                if (!currentReservation.startTime.contains(":") &&
+                        !currentReservation.endTime.contains(":")) {
                     continue;
                 }
                 int startMin = Integer.parseInt(currentReservation.startTime.substring(3, 5));
                 int endMin = Integer.parseInt(currentReservation.endTime.substring(3,5));
                 int startHour;
                 int endHour;
-                if (currentReservation.startTime.contains("PM") && !currentReservation.startTime.contains("12")) {
+                if (currentReservation.startTime.contains("PM") &&
+                        !currentReservation.startTime.contains("12")) {
                     startHour = Integer.parseInt(currentReservation.startTime.substring(0,2)) + 12;
                 } else {
                     startHour = Integer.parseInt(currentReservation.startTime.substring(0, 2));
@@ -144,6 +150,8 @@ public class SearchActivity extends AppCompatActivity {
                 }
                 if (!isConflict(curHour, curMinute, startHour, startMin, endHour, endMin)) {
                     openRooms.add(room);
+                    break;
+                    // FIXME: THERE SHOULD BE A CONTINUE HERE TO MOVE TO THE NEXT ROOM IF IT'S ADDED
                 }
             }
         }
@@ -183,9 +191,9 @@ public class SearchActivity extends AppCompatActivity {
 
     }
 
-    public ArrayList<String> allRooms() {
+    public static ArrayList<String> allRooms() {
         ArrayList<String> allRooms = new ArrayList<>(Arrays.asList(
-                "BIOS 105", "BIOS 106", "BIOS 111", "BIOS 113", "BIOS 200", "BIOS 210",
+                "AGYM 21", "BIOS 105", "BIOS 106", "BIOS 111", "BIOS 113", "BIOS 200", "BIOS 210",
                 "BIOS 309", "BIOS 311", "BOOTH 118", "BOOTH 119", "BOOTH 204", "BOOTH 208",
                 "BOOTH 223A", "BOOTH 223B", "BOOTH 224", "BOOTH 226", "FOWLER 108", "FOWLER 110",
                 "FOWLER 111", "FOWLER 112", "FOWLER 113", "FOWLER 201", "FOWLER 202", "FOWLER 207",
@@ -269,7 +277,7 @@ public class SearchActivity extends AppCompatActivity {
 
                 @SuppressWarnings("unchecked")
                 @Override
-                protected void publishResults(CharSequence constraint,FilterResults results) {
+                protected void publishResults(CharSequence constraint, FilterResults results) {
 
                     arrayList = (ArrayList<String>) results.values; // has the filtered values
                     notifyDataSetChanged();  // notifies the data with new filtered values
@@ -277,11 +285,11 @@ public class SearchActivity extends AppCompatActivity {
 
                 @Override
                 protected FilterResults performFiltering(CharSequence constraint) {
-                    FilterResults results = new FilterResults();        // Holds the results of a filtering operation in values
+                    FilterResults results = new FilterResults();
                     ArrayList<String> FilteredArrList = new ArrayList<String>();
 
                     if (mOriginalValues == null) {
-                        mOriginalValues = new ArrayList<String>(arrayList); // saves the original data in mOriginalValues
+                        mOriginalValues = new ArrayList<String>(arrayList);
                     }
 
                     if (constraint == null || constraint.length() == 0) {

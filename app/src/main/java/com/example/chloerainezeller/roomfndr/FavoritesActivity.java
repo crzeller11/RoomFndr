@@ -24,6 +24,15 @@ public class FavoritesActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    }
 
+    public void goBack(View view) {
+        Intent intent = new Intent(myContext, SearchActivity.class);
+        startActivity(intent);
+    }
 
+    public void addToFavorites(View view) {
+        // FIXME
+        Intent intent = new Intent(myContext, FavoriteAddActivity.class);
+        startActivity(intent);
     }
