@@ -116,6 +116,10 @@ public class SearchActivity extends AppCompatActivity {
         ArrayList<String> allRooms = allRooms();
         HashMap<String, ArrayList> roomOccupation = roomOccupation(dailyReservations);
 
+        if (dailyReservations.size() == 0) {
+            return allRooms;
+        }
+
         //int curHour = Integer.parseInt(timestamp[0]);
         //int curMinute = Integer.parseInt(timestamp[1]);
         int curHour = 17;
@@ -187,7 +191,7 @@ public class SearchActivity extends AppCompatActivity {
 
     }
 
-    public ArrayList<String> allRooms() {
+    public static ArrayList<String> allRooms() {
         ArrayList<String> allRooms = new ArrayList<>(Arrays.asList(
                 "AGYM 21", "BIOS 105", "BIOS 106", "BIOS 111", "BIOS 113", "BIOS 200", "BIOS 210",
                 "BIOS 309", "BIOS 311", "BOOTH 118", "BOOTH 119", "BOOTH 204", "BOOTH 208",
@@ -273,7 +277,7 @@ public class SearchActivity extends AppCompatActivity {
 
                 @SuppressWarnings("unchecked")
                 @Override
-                protected void publishResults(CharSequence constraint,FilterResults results) {
+                protected void publishResults(CharSequence constraint, FilterResults results) {
 
                     arrayList = (ArrayList<String>) results.values; // has the filtered values
                     notifyDataSetChanged();  // notifies the data with new filtered values
