@@ -23,7 +23,6 @@
         <activity android:name=".SearchResultActivity"/>
         <activity android:name=".DatabaseHelper"/>
         <activity android:name=".FavoriteAddActivity"/>
-        <activity android:name="RoomAdapter"/>
 
     </application>
 
