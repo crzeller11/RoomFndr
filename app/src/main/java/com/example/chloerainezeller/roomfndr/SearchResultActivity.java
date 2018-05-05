@@ -2,6 +2,7 @@ package com.example.chloerainezeller.roomfndr;
 
 import android.content.Context;
 import android.content.Intent;
+import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -48,7 +49,16 @@ public class SearchResultActivity extends AppCompatActivity {
                     Toast.makeText(SearchResultActivity.this, "Not saved to favorites", Toast.LENGTH_SHORT).show();
                 }
             }
+
+
+
+
+
         });
+
+
+
+
 
         final String roomName = this.getIntent().getExtras().getString("roomName");
         roomNumber.setText(roomName);
