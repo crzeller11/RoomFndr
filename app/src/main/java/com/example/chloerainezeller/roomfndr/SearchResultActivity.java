@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageButton;
@@ -49,10 +48,13 @@ public class SearchResultActivity extends AppCompatActivity {
                 } else {
                     Toast.makeText(SearchResultActivity.this, "Not saved to favorites", Toast.LENGTH_SHORT).show();
                 }
-
             }
-        });
 
+
+
+
+
+        });
 
 
 

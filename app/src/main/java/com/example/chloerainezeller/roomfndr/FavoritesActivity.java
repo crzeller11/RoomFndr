@@ -4,13 +4,10 @@ import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
-
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Adapter;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.support.v4.widget.SimpleCursorAdapter;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -18,25 +15,33 @@ import java.util.ArrayList;
 public class FavoritesActivity extends AppCompatActivity {
     private Context myContext;
     private ListView favoriteRoomsListView;
-    private TextView roomName;
-    private Adapter myAdapter;
     private DatabaseHelper myDb;
-    ArrayList myList = new ArrayList();
-
-
+    private TextView roomName;
+    private ArrayList<String>myList;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.favorites_list_item);
+        setContentView(R.layout.favorites_activity);
         myContext = this;
 
+/*
+        ArrayAdapter adapter = new ArrayAdapter<String>(this,R.layout.favorites_activity,myList);
+        favoriteRoomsListView = findViewById(R.id.myFavoritesListView);
+        favoriteRoomsListView.setAdapter(adapter);
+*/
+    }
+    //favoriteRoomsListView = findViewById(R.id.myFavoritesListView);
+    public void goBack(View view) {
+        Intent intent = new Intent(myContext, SearchActivity.class);
+        startActivity(intent);
+    }
 
-        myDb = new DatabaseHelper(this);
 
-
-        //roomName=findViewById(R.id.roomNumberListItem);
+    public void addToFavorites(View view) {
+        Intent intent = new Intent(myContext, FavoritesActivity.class);
+        startActivity(intent);
 
         Cursor todoCursor = myDb.getAllData();
         if (todoCursor.getCount() == 0){
@@ -45,33 +50,7 @@ public class FavoritesActivity extends AppCompatActivity {
         }
         //StringBuffer buffer = new StringBuffer();
         while (todoCursor.moveToNext()){
-            myList.add(todoCursor.getString(2 )+"\n");}
-
-        // TODO: fix null object reference on adapter
-        /*
-        ArrayAdapter adapter = new ArrayAdapter<String>(this,R.layout.favorites_activity,myList);
-        favoriteRoomsListView = findViewById(R.id.myFavoritesListView);
-        favoriteRoomsListView.setAdapter(adapter);
-*/
-            System.out.println(myList);
-        }
-
-    public void goBack(View view) {
-        Intent intent = new Intent(myContext, SearchActivity.class);
-        startActivity(intent);}
+            myList.add(todoCursor.getString(1 )+"\n");}
+        roomName.setText(myList.toString());
     }
-
-
-
-
-        //   roomName.setText(myList.toString());
-
-
-
-
-
-
-
-
-
-
+}
