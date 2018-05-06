@@ -8,6 +8,7 @@
     <string name="search_results">Search Results:</string>
     <string name="favorites">Favorites</string>
     <string name="my_favorite_rooms">My Favorite Rooms:</string>
+    <string name="remove_from_favorites">Remove from Favorites</string>
     <string name="search">Search</string>
     <string name="room_nbr">Room Number</string>
     <string name="share_room">Share this room</string>
@@ -17,4 +18,5 @@
     <string name="hint">Enter a room...</string>
     <string name="back_arrow"><b>←</b></string>
     <string name="available">Room Availability</string>
+    <string name="id_number">id number</string>
 </resources>
