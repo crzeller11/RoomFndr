@@ -14,6 +14,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -50,6 +51,7 @@ public class FavoritesActivity extends AppCompatActivity {
 
         Cursor res = myDb.getAllData();
         if (res.getCount() == 0){
+            Toast.makeText(FavoritesActivity.this,"No saved favorites.",Toast.LENGTH_SHORT).show();
             System.out.println("No data found");
             return;
         }
