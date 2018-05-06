@@ -25,7 +25,7 @@ import java.util.Arrays;
 import java.util.Calendar;
 import java.util.HashMap;
 
-public class SearchActivity extends AppCompatActivity {
+public  class SearchActivity extends AppCompatActivity {
 
     private Context myContext;
 
@@ -42,12 +42,12 @@ public class SearchActivity extends AppCompatActivity {
         setContentView(R.layout.search_activity);
         myContext = this;
 
-        final ArrayList<Reservation> dailyReservations = Reservation.getReservationsFromFile(
+        final  ArrayList<Reservation> dailyReservations = Reservation.getReservationsFromFile(
                 "reservations.json", this);
         Calendar cal = Calendar.getInstance();
         String time = "" + cal.get(Calendar.HOUR_OF_DAY) + ":" + cal.get(Calendar.MINUTE);
         String[] hour_min = time.split(":");
-        final ArrayList<String> availableRooms = findAvailableRooms(dailyReservations, hour_min);
+        final  ArrayList<String> availableRooms = findAvailableRooms(dailyReservations, hour_min);
 
 
         favoritesButton = findViewById(R.id.favoritesButton);
@@ -110,7 +110,7 @@ public class SearchActivity extends AppCompatActivity {
     }
 
     // FIXME: Only based on the rooms available all day long
-    public ArrayList<String> findAvailableRooms(ArrayList<Reservation> dailyReservations, String[] timestamp) {
+    public static ArrayList<String> findAvailableRooms(ArrayList<Reservation> dailyReservations, String[] timestamp) {
         ArrayList<String>  openRooms = new ArrayList<>() ;
         ArrayList<String> allRooms = allRooms();
         HashMap<String, ArrayList> roomOccupation = roomOccupation(dailyReservations);
@@ -165,7 +165,7 @@ public class SearchActivity extends AppCompatActivity {
     }
 
 
-    public HashMap<String, ArrayList> roomOccupation(ArrayList<Reservation> dailyReservations) {
+    public static HashMap<String, ArrayList> roomOccupation(ArrayList<Reservation> dailyReservations) {
         HashMap<String, ArrayList> roomOccupationMap = new HashMap<>();
         ArrayList<String> allRooms = allRooms();
         for (int i = 0; i < allRooms.size(); i++) {
@@ -183,7 +183,7 @@ public class SearchActivity extends AppCompatActivity {
         return roomOccupationMap;
     }
 
-    public boolean isConflict(int curHour, int curMinute, int startHour, int startMinute, int endHour, int endMinute) {
+    public static boolean isConflict(int curHour, int curMinute, int startHour, int startMinute, int endHour, int endMinute) {
         // the event starts after the current hour
         if (endHour >= startHour){
             if (startHour <= curHour && curHour <= endHour) {
