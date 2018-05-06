@@ -74,8 +74,8 @@ public class SearchResultActivity extends AppCompatActivity {
                 emailIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 emailIntent.setType("vnd.android.cursor.item/email");
                 emailIntent.putExtra(android.content.Intent.EXTRA_EMAIL, new String[] {"oslpa@oxy.edu"});
-                emailIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "My Email Subject");
-                emailIntent.putExtra(android.content.Intent.EXTRA_TEXT, "My email content");
+                emailIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Reserving " + roomName);
+                emailIntent.putExtra(android.content.Intent.EXTRA_TEXT, "Hello, I would like to reserve " + roomName);
                 startActivity(Intent.createChooser(emailIntent, "Send mail using..."));
             }
         });
