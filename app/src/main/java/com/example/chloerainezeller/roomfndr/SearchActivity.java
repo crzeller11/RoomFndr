@@ -3,6 +3,7 @@ package com.example.chloerainezeller.roomfndr;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -53,6 +54,7 @@ public class SearchActivity extends AppCompatActivity {
         backButton = findViewById(R.id.backButtonSearch);
         roomListView = findViewById(R.id.searchResultsListView);
 
+
         // FIXME: Refine by the current time of day
 
         adapter = new MyAdapter(this, availableRooms);
@@ -91,9 +93,6 @@ public class SearchActivity extends AppCompatActivity {
                 startActivity(detailIntent);
             }
         });
-
-
-
     }
 
     // goes to Favorites Activity
@@ -112,7 +111,7 @@ public class SearchActivity extends AppCompatActivity {
 
     // FIXME: Only based on the rooms available all day long
     public ArrayList<String> findAvailableRooms(ArrayList<Reservation> dailyReservations, String[] timestamp) {
-        ArrayList<String> openRooms = new ArrayList<>();
+        ArrayList<String>  openRooms = new ArrayList<>() ;
         ArrayList<String> allRooms = allRooms();
         HashMap<String, ArrayList> roomOccupation = roomOccupation(dailyReservations);
 
@@ -134,12 +133,12 @@ public class SearchActivity extends AppCompatActivity {
                     continue;
                 }
                 int startMin = Integer.parseInt(currentReservation.startTime.substring(3, 5));
-                int endMin = Integer.parseInt(currentReservation.endTime.substring(3,5));
+                int endMin = Integer.parseInt(currentReservation.endTime.substring(3, 5));
                 int startHour;
                 int endHour;
                 if (currentReservation.startTime.contains("PM") &&
                         !currentReservation.startTime.contains("12")) {
-                    startHour = Integer.parseInt(currentReservation.startTime.substring(0,2)) + 12;
+                    startHour = Integer.parseInt(currentReservation.startTime.substring(0, 2)) + 12;
                 } else {
                     startHour = Integer.parseInt(currentReservation.startTime.substring(0, 2));
                 }
@@ -151,12 +150,20 @@ public class SearchActivity extends AppCompatActivity {
                 if (!isConflict(curHour, curMinute, startHour, startMin, endHour, endMin)) {
                     openRooms.add(room);
                     break;
+
                     // FIXME: THERE SHOULD BE A CONTINUE HERE TO MOVE TO THE NEXT ROOM IF IT'S ADDED
                 }
+
+
             }
+
+
         }
         return openRooms;
+
+
     }
+
 
     public HashMap<String, ArrayList> roomOccupation(ArrayList<Reservation> dailyReservations) {
         HashMap<String, ArrayList> roomOccupationMap = new HashMap<>();
@@ -218,6 +225,7 @@ public class SearchActivity extends AppCompatActivity {
                 "WEINGART E. GALLERY RM. 100"));
         return allRooms;
     }
+
 
     // Adapter Class
     public class MyAdapter extends BaseAdapter implements Filterable {

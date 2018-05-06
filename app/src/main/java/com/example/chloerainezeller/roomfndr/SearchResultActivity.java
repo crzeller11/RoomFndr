@@ -19,9 +19,7 @@ public class SearchResultActivity extends AppCompatActivity {
     private ImageButton shareRoomButton;
     private ImageButton emailOSLButton;
     private ImageButton addToFavoritesButton;
-    DatabaseHelper myDb;
-
-
+    dbHelper myDb;
 
 
     @Override
@@ -31,7 +29,7 @@ public class SearchResultActivity extends AppCompatActivity {
 
         setContentView(R.layout.search_result_activity);
         myContext = this;
-        myDb = new DatabaseHelper(this);
+        myDb = new dbHelper(this);
 
         roomNumber = findViewById(R.id.roomNumber);
         goBackButton = findViewById(R.id.backButtonSearchResult);
@@ -50,17 +48,11 @@ public class SearchResultActivity extends AppCompatActivity {
                 }
             }
 
-
-
-
-
         });
 
 
-
-
-
         final String roomName = this.getIntent().getExtras().getString("roomName");
+
         roomNumber.setText(roomName);
 
         shareRoomButton.setOnClickListener(new View.OnClickListener() {
