@@ -1,5 +1,7 @@
 RoomFndr
 
+![roomfndr](https://user-images.githubusercontent.com/18408393/39677347-48b9db4a-512e-11e8-9cc2-fb40e704bc50.png)
+
 RoomFndr is an app that allows memeber of the Occidental community to easily find available rooms on campus. With RoomFndr, you can:
   - Search all available rooms on campus
   - Save your favorite rooms on campus, then easily check on their availability
