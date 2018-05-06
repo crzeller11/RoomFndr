@@ -16,6 +16,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Calendar;
 
 public class FavoritesActivity extends AppCompatActivity {
@@ -58,6 +59,19 @@ public class FavoritesActivity extends AppCompatActivity {
 
         adapter = new FavoritesActivity.MyAdapter(this, myList);
         favoriteRoomsListView.setAdapter(adapter);
+
+        favoriteRoomsListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Object itemName = favoriteRoomsListView.getItemAtPosition(position);
+                String selectedRoom = itemName.toString();
+                Intent detailIntent = new Intent(myContext, SearchResultActivity.class);
+
+                detailIntent.putExtra("roomName", selectedRoom);
+
+                startActivity(detailIntent);
+            }
+        });
 
         addNewFav=findViewById(R.id.addNewFavoriteRoom);
         addNewFav.setOnClickListener(new View.OnClickListener() {
@@ -141,12 +155,12 @@ public class FavoritesActivity extends AppCompatActivity {
                 Calendar cal = Calendar.getInstance();
                 String time = "" + cal.get(Calendar.HOUR_OF_DAY) + ":" + cal.get(Calendar.MINUTE);
                 String[] hour_min = time.split(":");
-                final  ArrayList<String> availableRooms = SearchActivity.findAvailableRooms(dailyReservations, hour_min);
+                ArrayList<String> availableRooms = SearchActivity.findAvailableRooms(dailyReservations, hour_min);
 
                 boolean occupied = false;
 
                 for (int i = 0; i < availableRooms.size(); i++) {
-                    if (availableRooms.get(i).equals(room)) {
+                    if (availableRooms.get(i).trim().equals(room.trim())) {
                         occupied = true;
                         break;
                     }
@@ -157,6 +171,7 @@ public class FavoritesActivity extends AppCompatActivity {
                 } else {
                     availabilityTextView.setText("Available Now");
                 }
+
 
             }
 

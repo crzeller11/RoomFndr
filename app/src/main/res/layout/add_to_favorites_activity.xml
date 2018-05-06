@@ -27,8 +27,7 @@
         android:fontFamily="@font/main_light"
         android:hint="@string/hint"
         android:inputType="textPersonName"
-        android:background="@android:color/transparent"
-        android:text="Name" />
+        android:background="@android:color/transparent" />
 
     <ListView
         android:id="@+id/favoritesListView"

@@ -9,11 +9,9 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class dbHelper extends SQLiteOpenHelper{
 
-
+    // name the table and columns
     public static final String DATABASE_NAME = "Student.db";
-    // name the table
     public static final String TABLE_NAME = "student_table";
-    // create the column names
     public static final String COL_1 = "ID";
     public static final String COL_2 = "FIRSTNAME";
 
