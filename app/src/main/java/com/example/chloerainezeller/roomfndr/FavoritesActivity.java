@@ -16,6 +16,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 
 public class FavoritesActivity extends AppCompatActivity {
     private Context myContext;
@@ -34,6 +35,15 @@ public class FavoritesActivity extends AppCompatActivity {
         myDb = new dbHelper(this);
         myContext = this;
 
+
+        final  ArrayList<Reservation> dailyReservations = Reservation.getReservationsFromFile(
+                "reservations.json", this);
+        Calendar cal = Calendar.getInstance();
+        String time = "" + cal.get(Calendar.HOUR_OF_DAY) + ":" + cal.get(Calendar.MINUTE);
+        String[] hour_min = time.split(":");
+        final  ArrayList<String> availableRooms = SearchActivity.findAvailableRooms(dailyReservations, hour_min);
+
+
         Intent intent=getIntent();
         ArrayList rooms = intent.getStringArrayListExtra("room_list");
         System.out.println(rooms);
@@ -44,7 +54,7 @@ public class FavoritesActivity extends AppCompatActivity {
             return;
         }
 
-        ArrayList<String>myList= new ArrayList<>();
+        final ArrayList<String>myList= new ArrayList<>();
         while (res.moveToNext()){
             myList.add(res.getString(1 )+"\n");
         }
@@ -70,12 +80,12 @@ public class FavoritesActivity extends AppCompatActivity {
                 Intent detailIntent = new Intent(myContext, SearchResultActivity.class);
 
                 detailIntent.putExtra("roomName", selectedRoom);
-                /*
-                //if (openRoom.contains(selectedRoom)) {
-               // detailIntent.putExtra("availability","Available");}
-                //else{
-                //detailIntent.putExtra("availability","Not Available");}
-                startActivity(detailIntent);*/
+
+                if (myList.contains(selectedRoom)) {
+                detailIntent.putExtra("availability","Available");}
+                else{
+                detailIntent.putExtra("availability","Not Available");}
+                startActivity(detailIntent);
             }
         });
 
