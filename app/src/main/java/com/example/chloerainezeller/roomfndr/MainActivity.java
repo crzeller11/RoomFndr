@@ -12,8 +12,6 @@ import android.widget.Button;
 // FINISHED
 public class MainActivity extends AppCompatActivity {
 
-
-
     public Context myContext;
     private Button findRoomButton;
     private Button makeRoomRequestButton;
@@ -22,21 +20,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         myContext = this;
-
         findRoomButton = findViewById(R.id.findRoomButton);
         makeRoomRequestButton = findViewById(R.id.roomRequestButton);
-
-
     }
 
     // onClick method from XML file, button leads to SearchActivity
     public void findRoom(View view) {
         Intent intent = new Intent(myContext, SearchActivity.class);
         startActivity(intent);
-
-
     }
 
     // onClick method from XML file, button leads to implicit intent to launch R25 reservation system
@@ -45,6 +37,5 @@ public class MainActivity extends AppCompatActivity {
         Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(reservationUrl));
         startActivity(browserIntent);
     }
-
 
 }

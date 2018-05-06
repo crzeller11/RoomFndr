@@ -2,7 +2,6 @@ package com.example.chloerainezeller.roomfndr;
 
 import android.content.Context;
 import android.content.Intent;
-import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -87,7 +86,6 @@ public class SearchResultActivity extends AppCompatActivity {
         Intent intent = new Intent(myContext, SearchActivity.class);
         startActivity(intent);
     }
-
 
 
 }

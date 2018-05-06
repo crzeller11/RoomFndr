@@ -44,8 +44,7 @@ public class FavoriteAddActivity extends AppCompatActivity {
 
 
 
-
-        final EditText filterEditText = (EditText) findViewById(R.id.editTextFavorites);
+        final EditText filterEditText = findViewById(R.id.editTextFavorites);
 
         filterEditText.addTextChangedListener(new TextWatcher() {
             @Override
@@ -66,12 +65,8 @@ public class FavoriteAddActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
                 Object itemName = roomListView.getItemAtPosition(position);
                 String selectedRoom = itemName.toString();
-                // TODO: take selected room and add to database, if already there, notify w/ Toast, otherwise, add away
-
-
             }
         });
-
 
     }
 

@@ -1,6 +1,5 @@
 package com.example.chloerainezeller.roomfndr;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
@@ -36,19 +35,6 @@ public class FavoritesActivity extends AppCompatActivity {
         myDb = new dbHelper(this);
         myContext = this;
 
-
-        final  ArrayList<Reservation> dailyReservations = Reservation.getReservationsFromFile(
-                "reservations.json", this);
-        Calendar cal = Calendar.getInstance();
-        String time = "" + cal.get(Calendar.HOUR_OF_DAY) + ":" + cal.get(Calendar.MINUTE);
-        String[] hour_min = time.split(":");
-        final  ArrayList<String> availableRooms = SearchActivity.findAvailableRooms(dailyReservations, hour_min);
-
-
-        Intent intent=getIntent();
-        ArrayList rooms = intent.getStringArrayListExtra("room_list");
-        System.out.println(rooms);
-
         Cursor res = myDb.getAllData();
         if (res.getCount() == 0){
             Toast.makeText(FavoritesActivity.this,"No saved favorites.",Toast.LENGTH_SHORT).show();
@@ -56,12 +42,12 @@ public class FavoritesActivity extends AppCompatActivity {
             return;
         }
 
-        final ArrayList<String>myList= new ArrayList<>();
+        final ArrayList<String> myList = new ArrayList<>();
         while (res.moveToNext()){
             myList.add(res.getString(1 )+"\n");
         }
 
-        final ArrayList<String>idList= new ArrayList<>();
+        final ArrayList<String> idList = new ArrayList<>();
         while(res.moveToNext()){
             idList.add(res.getString(0)+"\n");
         }
@@ -70,7 +56,7 @@ public class FavoritesActivity extends AppCompatActivity {
         favoriteRoomsListView = findViewById(R.id.myFavoritesListView);
         availability=findViewById(R.id.availabilityListItem);
 
-        adapter = new FavoritesActivity.MyAdapter(this,myList);
+        adapter = new FavoritesActivity.MyAdapter(this, myList);
         favoriteRoomsListView.setAdapter(adapter);
 
         favoriteRoomsListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -117,13 +103,15 @@ public class FavoritesActivity extends AppCompatActivity {
 
 
     public class MyAdapter extends BaseAdapter {
-
-        ArrayList<String> arrayList;
-        LayoutInflater inflater;
+        private Context myContext;
+        private ArrayList<String> arrayList;
+        private LayoutInflater inflater;
 
         public MyAdapter(Context context, ArrayList<String> arrayList) {
+
+            this.myContext = context;
             this.arrayList = arrayList;
-            inflater = LayoutInflater.from(context);
+            inflater = (LayoutInflater) myContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         }
 
         @Override
@@ -141,30 +129,56 @@ public class FavoritesActivity extends AppCompatActivity {
             return position;
         }
 
-        private class ViewHolder {
-            TextView textView;
-        }
 
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
-
-            FavoritesActivity.MyAdapter.ViewHolder holder = null;
+            ViewHolder holder;
 
             if (convertView == null) {
+                convertView = inflater.inflate(R.layout.favorites_list_item, parent, false);
 
-                holder = new FavoritesActivity.MyAdapter.ViewHolder();
-                convertView = inflater.inflate(R.layout.favorites_list_item, null);
-                holder.textView = convertView.findViewById(R.id.roomNumberListItem);
+                holder = new ViewHolder();
+
+                holder.roomTextView = convertView.findViewById(R.id.roomNumberListItem);
+                holder.availabilityTextView = convertView.findViewById(R.id.availabilityListItem);
+
                 convertView.setTag(holder);
+
             } else {
-                holder = (FavoritesActivity.MyAdapter.ViewHolder) convertView.getTag();
+
+                holder = (ViewHolder) convertView.getTag();
+                TextView roomTextView = holder.roomTextView;
+                TextView availabilityTextView = holder.availabilityTextView;
+
+                Object curItem = getItem(position);
+                String room = curItem.toString();
+
+                roomTextView.setText(room);
+
+                final  ArrayList<Reservation> dailyReservations = Reservation.getReservationsFromFile(
+                        "reservations.json", myContext);
+                Calendar cal = Calendar.getInstance();
+                String time = "" + cal.get(Calendar.HOUR_OF_DAY) + ":" + cal.get(Calendar.MINUTE);
+                String[] hour_min = time.split(":");
+                final  ArrayList<String> availableRooms = SearchActivity.findAvailableRooms(dailyReservations, hour_min);
+
+                if (availableRooms.contains(room)) {
+                    availabilityTextView.setText("Available Now");
+                } else {
+                    availabilityTextView.setText("Not Available Now");
+                }
+
             }
-            holder.textView.setText(arrayList.get(position));
+
             return convertView;
         }
 
+    }
 
 
+    private static class ViewHolder {
+        public TextView roomTextView;
+        public TextView availabilityTextView;
     }
 
 }

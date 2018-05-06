@@ -59,9 +59,4 @@ public class Reservation {
         return json;
     }
 
-
-
-
-
-
 }
