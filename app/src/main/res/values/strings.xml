@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">RmFndr</string>
+    <string name="app_name">RoomFndr</string>
     <string name="find_room">find a room</string>
     <string name="room_request">make a room request</string>
     <string name="search_title">Available Rooms:</string>

@@ -21,7 +21,7 @@
         <activity android:name=".SearchActivity"/>
         <activity android:name=".FavoritesActivity"/>
         <activity android:name=".SearchResultActivity"/>
-        <activity android:name=".DatabaseHelper"/>
+        <activity android:name=".dbHelper"/>
         <activity android:name=".FavoriteAddActivity"/>
 
     </application>

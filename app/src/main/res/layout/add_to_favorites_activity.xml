@@ -24,8 +24,10 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="130dp"
         android:ems="10"
+        android:fontFamily="@font/main_light"
         android:hint="@string/hint"
         android:inputType="textPersonName"
+        android:background="@android:color/transparent"
         android:text="Name" />
 
     <ListView

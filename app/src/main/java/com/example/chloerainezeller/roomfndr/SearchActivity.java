@@ -49,11 +49,12 @@ public  class SearchActivity extends AppCompatActivity {
         String[] hour_min = time.split(":");
         final  ArrayList<String> availableRooms = findAvailableRooms(dailyReservations, hour_min);
 
-
         favoritesButton = findViewById(R.id.favoritesButton);
         backButton = findViewById(R.id.backButtonSearch);
         roomListView = findViewById(R.id.searchResultsListView);
 
+        System.out.println(availableRooms);
+        System.out.println(allRooms());
 
         // FIXME: Refine by the current time of day
 

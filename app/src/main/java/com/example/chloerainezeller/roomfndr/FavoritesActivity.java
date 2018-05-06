@@ -54,29 +54,10 @@ public class FavoritesActivity extends AppCompatActivity {
 
 
         favoriteRoomsListView = findViewById(R.id.myFavoritesListView);
-        availability=findViewById(R.id.availabilityListItem);
+        availability = findViewById(R.id.availabilityListItem);
 
         adapter = new FavoritesActivity.MyAdapter(this, myList);
         favoriteRoomsListView.setAdapter(adapter);
-
-        favoriteRoomsListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Object itemName = favoriteRoomsListView.getItemAtPosition(position);
-                String selectedRoom = itemName.toString();
-
-                Intent detailIntent = new Intent(myContext, SearchResultActivity.class);
-
-                detailIntent.putExtra("roomName", selectedRoom);
-
-                if (myList.contains(selectedRoom)) {
-                detailIntent.putExtra("availability","Available");}
-                else{
-                detailIntent.putExtra("availability","Not Available");}
-                startActivity(detailIntent);
-            }
-        });
-
 
         addNewFav=findViewById(R.id.addNewFavoriteRoom);
         addNewFav.setOnClickListener(new View.OnClickListener() {
@@ -162,10 +143,19 @@ public class FavoritesActivity extends AppCompatActivity {
                 String[] hour_min = time.split(":");
                 final  ArrayList<String> availableRooms = SearchActivity.findAvailableRooms(dailyReservations, hour_min);
 
-                if (availableRooms.contains(room)) {
-                    availabilityTextView.setText("Available Now");
-                } else {
+                boolean occupied = false;
+
+                for (int i = 0; i < availableRooms.size(); i++) {
+                    if (availableRooms.get(i).equals(room)) {
+                        occupied = true;
+                        break;
+                    }
+                }
+
+                if (occupied) {
                     availabilityTextView.setText("Not Available Now");
+                } else {
+                    availabilityTextView.setText("Available Now");
                 }
 
             }

@@ -17,6 +17,7 @@ import android.widget.Filterable;
 import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -28,12 +29,14 @@ public class FavoriteAddActivity extends AppCompatActivity {
     private ListView roomListView;
     private MyAdapter adapter;
 
+    dbHelper myDb;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.add_to_favorites_activity);
         myContext = this;
-
+        myDb = new dbHelper(this);
         roomListView = findViewById(R.id.favoritesListView);
         backButton = findViewById(R.id.imageButtonGoBackFavs);
 
@@ -65,6 +68,12 @@ public class FavoriteAddActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
                 Object itemName = roomListView.getItemAtPosition(position);
                 String selectedRoom = itemName.toString();
+                boolean isInserted = myDb.insertData(selectedRoom);
+                if (isInserted) {
+                    Toast.makeText(FavoriteAddActivity.this, "Saved to favorites!", Toast.LENGTH_SHORT).show();
+                } else {
+                    Toast.makeText(FavoriteAddActivity.this, "Not saved to favorites", Toast.LENGTH_SHORT).show();
+                }
             }
         });
 
